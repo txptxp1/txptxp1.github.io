@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -6,6 +7,16 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+>>>>>>> 520619987c536cd8fb04dd7f01dcc7f257421ccd
 
 <url>
   <loc>https://adeptmicors279-github-io.pages.dev/homepage/</loc>
@@ -31,7 +42,13 @@
   <loc>https://adeptmicors279-github-io.pages.dev/homepage/archives/2024/</loc>
   <lastmod>2024-04-13T13:25:19+00:00</lastmod>
   <priority>0.64</priority>
+<<<<<<< HEAD
 </url>
 
 
+=======
+</url>
+
+
+>>>>>>> 520619987c536cd8fb04dd7f01dcc7f257421ccd
 </urlset>
