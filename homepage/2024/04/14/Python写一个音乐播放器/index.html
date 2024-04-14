@@ -1,12 +1,26 @@
-<!doctype html>
-<html lang="ch"><head>
-<title>Python写一个音乐播放器 - Adeptmicors279的blog</title>
-<meta charset="UTF-8">
-<meta name="keywords" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<!DOCTYPE html>
+<html lang="chs">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 7.1.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/homepage/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/homepage/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/homepage/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/homepage/images/logo.svg" color="#222">
 
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<meta name="description" content="本来想把之前OCR重写UI再端上来的说但是马上就期中了，所以就把之前的音乐播放器拿出来给大家看看吧">
+<link rel="stylesheet" href="/homepage/css/main.css">
+
+
+<link rel="stylesheet" href="/homepage/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"adeptmicors279-github-io.pages.dev","root":"/homepage/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="本来想把之前OCR重写UI再端上来的说但是马上就期中了，所以就把之前的音乐播放器拿出来给大家看看吧">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python写一个音乐播放器">
 <meta property="og:url" content="https://adeptmicors279-github-io.pages.dev/homepage/2024/04/14/Python%E5%86%99%E4%B8%80%E4%B8%AA%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/index.html">
@@ -18,320 +32,163 @@
 <meta property="article:tag" content="技术">
 <meta name="twitter:card" content="summary">
 
-<link rel="stylesheet" href="/homepage/lib/fancybox/fancybox.css">
-<link rel="stylesheet" href="/homepage/lib/mdui_043tiny/mdui.css">
+<link rel="canonical" href="https://adeptmicors279-github-io.pages.dev/homepage/2024/04/14/Python%E5%86%99%E4%B8%80%E4%B8%AA%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/">
 
 
-<link rel="stylesheet" href="/homepage/lib/iconfont/iconfont.css?v=1713059817888">
-
-<link rel="stylesheet" href="/homepage/css/style.css?v=1713059817888">
-
-
-
-
-    
-        <link rel="stylesheet" href="/homepage/custom.css?v=1713059817888">
-    
-
-
-
-<script src="/homepage/lib/mdui_043tiny/mdui.js" async></script>
-<script src="/homepage/lib/fancybox/fancybox.umd.js" async></script>
-<script src="/homepage/lib/lax.min.js" async></script>
-
-
-<script async src="/homepage/js/app.js?v=1713059817888"></script>
-
- 
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4D4ZJ9G024"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag("js", new Date());
-
-  gtag("config", "G-4D4ZJ9G024");
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'chs'
+  };
 </script>
 
+  <title>Python写一个音乐播放器 | Adeptmicors279的blog</title>
+  
 
-<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
-<meta name="generator" content="Hexo 7.1.1"></head><body class="nexmoe mdui-drawer-body-left"><div id="nexmoe-background"><div class="nexmoe-bg" style="background-image: url(https://i.dawnlab.me/b5a7e61560facdd5b8aa9683fce147d7.png)"></div><div class="mdui-appbar mdui-shadow-0"><div class="mdui-toolbar"><a class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: &#039;#drawer&#039;, swipe: true}" title="menu"><i class="mdui-icon nexmoefont icon-menu"></i></a><div class="mdui-toolbar-spacer"></div><a class="mdui-btn mdui-btn-icon" href="/homepage/" title="Adeptmicors279的blog"><img src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png" alt="Adeptmicors279的blog"></a></div></div></div><div id="nexmoe-header"><div class="nexmoe-drawer mdui-drawer" id="drawer">
-    <div class="nexmoe-avatar mdui-ripple">
-        <a href="/homepage/" title="Adeptmicors279的blog">
-            <img src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png" alt="Adeptmicors279的blog" alt="Adeptmicors279的blog">
-        </a>
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
     </div>
-    <div class="nexmoe-count">
-        <div><span>Articles</span>2</div>
-        <div><span>Tags</span>1</div>
-        <div><span>Categories</span>0</div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/homepage/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Adeptmicors279的blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
     </div>
-    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
-        
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/homepage/" title="回到首页">
-            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
-            <div class="mdui-list-item-content">
-                回到首页
-            </div>
-        </a>
-        
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/homepage/archive.html" title="文章归档">
-            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
-            <div class="mdui-list-item-content">
-                文章归档
-            </div>
-        </a>
-        
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/homepage/PY.html" title="我的朋友">
-            <i class="mdui-list-item-icon nexmoefont icon-unorderedlist"></i>
-            <div class="mdui-list-item-content">
-                我的朋友
-            </div>
-        </a>
-        
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" target="_blank" rel="noopener" href="https://nexmoe.com/donate.html" title="给我赞助">
-            <i class="mdui-list-item-icon nexmoefont icon-coffee"></i>
-            <div class="mdui-list-item-content">
-                给我赞助
-            </div>
-        </a>
-        
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" target="_blank" rel="noopener" href="https://i.nexmoe.com/" title="关于博主">
-            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
-            <div class="mdui-list-item-content">
-                关于博主
-            </div>
-        </a>
-        
-    </div>
-    
-    
-        
-        <div class="nexmoe-widget-wrap">
-    <div class="nexmoe-widget nexmoe-search">
-         
-            <form id="search_form" action_e="https://cn.bing.com/search?q=site:nexmoe.com" onsubmit="return search();">
-                <label><input id="search_value" name="q" type="search" placeholder="Search"></label>
-            </form>
-         
-    </div>
+  </div>
 </div>
 
 
 
 
-    
-        
-        <div class="nexmoe-widget-wrap">
-	<div class="nexmoe-widget nexmoe-social">
-		<a
-			class="mdui-ripple"
-			href="https://jq.qq.com/?_wv=1027&k=5CfKHun"
-			target="_blank"
-			mdui-tooltip="{content: 'QQ群'}"
-			style="
-				color: rgb(249, 174, 8);
-				background-color: rgba(249, 174, 8, .1);
-			"
-		>
-			<i
-				class="nexmoefont icon-QQ"
-			></i> </a
-		><a
-			class="mdui-ripple"
-			href="https://space.bilibili.com/20238211"
-			target="_blank"
-			mdui-tooltip="{content: '哔哩哔哩'}"
-			style="
-				color: rgb(231, 106, 141);
-				background-color: rgba(231, 106, 141, .1);
-			"
-		>
-			<i
-				class="nexmoefont icon-bilibili"
-			></i> </a
-		><a
-			class="mdui-ripple"
-			href="https://github.com/nexmoe/"
-			target="_blank"
-			mdui-tooltip="{content: 'GitHub'}"
-			style="
-				color: rgb(25, 23, 23);
-				background-color: rgba(25, 23, 23, .1);
-			"
-		>
-			<i
-				class="nexmoefont icon-github"
-			></i> </a
-		><a
-			class="mdui-ripple"
-			href="https://www.zhihu.com/people/nexmoe"
-			target="_blank"
-			mdui-tooltip="{content: '知乎'}"
-			style="
-				color: rgb(30, 136, 229);
-				background-color: rgba(30, 136, 229, .1);
-			"
-		>
-			<i
-				class="nexmoefont icon-zhihu"
-			></i> </a
-		><a
-			class="mdui-ripple"
-			href="https://twitter.com/nexmoe"
-			target="_blank"
-			mdui-tooltip="{content: 'Twitter'}"
-			style="
-				color: rgb(59, 151, 239);
-				background-color: rgba(59, 151, 239, .1);
-			"
-		>
-			<i
-				class="nexmoefont icon-twitter"
-			></i> </a
-		><a
-			class="mdui-ripple"
-			href="https://nexmoe.com/atom.xml"
-			target="_blank"
-			mdui-tooltip="{content: 'RSS'}"
-			style="
-				color: rgb(247, 132, 34);
-				background-color: rgba(247, 132, 34, .1);
-			"
-		>
-			<i
-				class="nexmoefont icon-rss"
-			></i> </a
-		>
-	</div>
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/homepage/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/homepage/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
 </div>
+    </header>
 
     
-        
-        
-
-    
-        
-        
-  <div class="nexmoe-widget-wrap">
-    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
-      <a href="/homepage/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 10px;">技术</a>
-    </div>
-    
-      <script>
-        var maxTagcloud = parseInt(17);
-        var tags_length = parseInt(1);
-        var tags_arr = [];
-        for(var i = 0; i < tags_length; i++){
-          tags_arr.push(i);
-        }
-        tags_arr.sort(function (l, r) {
-          return Math.random() > 0.5 ? -1 : 1;
-        });
-        tags_arr = tags_arr.slice(0, maxTagcloud < tags_length ? tags_length - maxTagcloud : 0);
-        for(var tag_i = 0; tag_i < tags_arr.length; tag_i++){
-          document.getElementById("randomtagcloud").children[tags_arr[tag_i]].style.display = 'none';
-        }
-      </script>
-    
-  </div>
-
-    
-        
-        
-        
-  <div class="nexmoe-widget-wrap">
-    <h3 class="nexmoe-widget-title">Archive</h3>
-    <div class="nexmoe-widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/homepage/archives/2024/">2024</a><span class="archive-list-count">2</span></li></ul>
-    </div>
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
   </div>
 
 
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
 
     
-        
-        
-  <div class="nexmoe-widget-wrap">
-    <h3 class="nexmoe-widget-title">Recent Posts</h3>
-    <div class="nexmoe-widget">
-      <ul>
-        
-          <li>
-            <a href="/homepage/2024/04/14/Python%E5%86%99%E4%B8%80%E4%B8%AA%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/">Python写一个音乐播放器</a>
-          </li>
-        
-          <li>
-            <a href="/homepage/2024/04/13/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/">关于此站</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="chs">
+    <link itemprop="mainEntityOfPage" href="https://adeptmicors279-github-io.pages.dev/homepage/2024/04/14/Python%E5%86%99%E4%B8%80%E4%B8%AA%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/">
 
-    
-        
-        <div class="nexmoe-widget-wrap">
-    <div class="nexmoe-widget nexmoe-link">
-		<ul>
-        
-            <li>
-                <a href="https://nexmoe.com/" target="_blank" >
-                    <img src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png" alt="折影轻梦"></img>
-                    <p>折影轻梦</p>
-                </a>
-            </li>
-        
-		</ul>
-    </div>
-</div>
-<style>
-.nexmoe-widget-wrap .nexmoe-link ul li a {
-    text-align : center;
-}
-.nexmoe-widget-wrap .nexmoe-link ul li a img {
-    max-width : 100%;
-}
-.nexmoe-widget-wrap .nexmoe-link ul li a p {
-    margin: 10px 0;
-}
-</style>
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/homepage/images/avatar.gif">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+    </span>
 
-    
-   
-    <div class="nexmoe-copyright">
-        &copy; 2024 Adeptmicors279的blog
-        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
-        <br><a target="_blank" href="https://beian.miit.gov.cn/">鄂ICP备2020018486号</a>
-<br><a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
-<img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a>
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Adeptmicors279的blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Python写一个音乐播放器
+        </h1>
 
-    </div>
-</div><!-- .nexmoe-drawer --></div><div id="nexmoe-content"><div class="nexmoe-primary"><div class="nexmoe-post">
-  <article>
-    
-        <div class="nexmoe-post-cover"> 
-            <img src="https://i.dawnlab.me/b5a7e61560facdd5b8aa9683fce147d7.png" alt="Python写一个音乐播放器" loading="lazy">
-            <h1>Python写一个音乐播放器</h1>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2024-04-14 01:03:17 / Modified: 09:31:35" itemprop="dateCreated datePublished" datetime="2024-04-14T01:03:17+08:00">2024-04-14</time>
+            </span>
+
+          
+
         </div>
-    
-    
-    <div class="nexmoe-post-meta">
-    <div class="nexmoe-rainbow">
-        <a class="nexmoefont icon-calendar-fill">2024年04月14日</a>
-        
-        
-    </div>
-    
-    
-    
-    
-    
-</div>
+      </header>
 
-    <p>本来想把之前OCR重写UI再端上来的说<br>但是马上就期中了，所以就把之前的音乐播放器拿出来给大家看看吧</p>
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>本来想把之前OCR重写UI再端上来的说<br>但是马上就期中了，所以就把之前的音乐播放器拿出来给大家看看吧</p>
 <span id="more"></span>
 
 <h2 id="Python-库的导入"><a href="#Python-库的导入" class="headerlink" title="Python 库的导入"></a>Python 库的导入</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">import tkinter</span><br><span class="line">from tkinter import *</span><br><span class="line">from tkinter import filedialog</span><br><span class="line">from tkinter import messagebox</span><br><span class="line">from tkinter import ttk</span><br><span class="line">import os.path</span><br><span class="line">import pygame</span><br></pre></td></tr></table></figure>
@@ -358,60 +215,190 @@
 <p>先全局变量<br>然后创建一个子窗口voice<br>创建滑条并关联音量百分比</p>
 <h4 id="root"><a href="#root" class="headerlink" title="root()"></a>root()</h4><p>启动！</p>
 
-    <p><img src="https://i.dawnlab.me/53a8c7cf3ad77a0f0a456ce2c6afe88a.png" loading="lazy"></p>
-
-  </article>
-
-  
-      
-    <div class="nexmoe-post-copyright">
-        <strong>Author：</strong><br>
-        <strong>Link：</strong><a href="https://adeptmicors279-github-io.pages.dev/homepage/2024/04/14/Python%E5%86%99%E4%B8%80%E4%B8%AA%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/" title="https:&#x2F;&#x2F;adeptmicors279-github-io.pages.dev&#x2F;homepage&#x2F;2024&#x2F;04&#x2F;14&#x2F;Python%E5%86%99%E4%B8%80%E4%B8%AA%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8&#x2F;" target="_blank" rel="noopener">https:&#x2F;&#x2F;adeptmicors279-github-io.pages.dev&#x2F;homepage&#x2F;2024&#x2F;04&#x2F;14&#x2F;Python%E5%86%99%E4%B8%80%E4%B8%AA%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8&#x2F;</a><br>
-        
-            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
-
-        
     </div>
 
+    
+    
+    
 
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/homepage/tags/%E6%8A%80%E6%9C%AF/" rel="tag"># 技术</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/homepage/2024/04/13/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/" rel="prev" title="关于此站">
+      <i class="fa fa-chevron-left"></i> 关于此站
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
   
   
-  <div class="nexmoe-post-meta nexmoe-rainbow">
-   
-    
-        <a class="nexmoefont icon-tag-fill -none-link" href="/homepage/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a>
-    
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Python-%E5%BA%93%E7%9A%84%E5%AF%BC%E5%85%A5"><span class="nav-number">1.</span> <span class="nav-text">Python 库的导入</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96%E5%88%97%E8%A1%A8"><span class="nav-number">2.</span> <span class="nav-text">初始化列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A3%80%E6%B5%8B%E6%96%87%E4%BB%B6%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8"><span class="nav-number">3.</span> <span class="nav-text">检测文件是否存在</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E8%BF%99%E8%BE%B9%E8%A6%81%E5%86%99readlines%E4%B8%8D%E7%84%B6%E4%BC%9A%E6%8A%8A%E6%89%80%E6%9C%89%E7%9A%84%E4%B8%80%E4%B8%AA%E4%B8%AA%E5%AD%97%E6%AF%8D%E6%8B%86%E5%88%86%E4%B8%8B%E6%9D%A5%E5%82%A8%E5%AD%98%E5%88%B0%E5%88%97%E8%A1%A8%E4%B8%AD%E5%8E%BB"><span class="nav-number"></span> <span class="nav-text">注意这边要写readlines不然会把所有的一个个字母拆分下来储存到列表中去</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8C%89%E7%85%A7%E6%88%91%E5%86%99%E4%BB%A3%E7%A0%81%E7%9A%84%E4%B9%A0%E6%83%AF%EF%BC%8C%E6%88%91%E5%96%9C%E6%AC%A2%E5%85%88%E7%A9%BA%E5%87%BA%E5%9C%B0%E6%96%B9%EF%BC%8C%E6%8A%8AUI%E6%94%BE%E5%9C%A8%E5%90%8E%E9%9D%A2%EF%BC%8C%E5%85%88%E5%86%99UI%E3%80%82%E4%BD%86%E6%98%AF%E6%83%B3%E4%BA%86%E6%83%B3%E5%8F%91%E7%8E%B0%E5%86%99%E5%8D%9A%E5%AE%A2%E4%B8%8D%E6%98%93%E7%9C%8B%E6%87%82%EF%BC%8C%E6%89%80%E4%BB%A5%E6%8F%90%E5%89%8D%E5%88%B0%E8%BF%99%E9%87%8C"><span class="nav-number">0.1.</span> <span class="nav-text">按照我写代码的习惯，我喜欢先空出地方，把UI放在后面，先写UI。但是想了想发现写博客不易看懂，所以提前到这里</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90"><span class="nav-number">1.</span> <span class="nav-text">添加音乐</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#filename-os-path-basename-item-%E5%88%86%E7%A6%BB%E6%96%87%E4%BB%B6%E5%90%8D%E5%92%8C%E8%B7%AF%E5%BE%84%E5%B9%B6%E5%AD%98%E5%85%A5music-show%EF%BC%8C%E5%BE%85%E4%BC%9A%E7%94%A8%E4%BA%8E%E5%B1%95%E7%A4%BA"><span class="nav-number"></span> <span class="nav-text">filename&#x3D;os.path.basename(item) 分离文件名和路径并存入music_show，待会用于展示</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%A0%E9%99%A4"><span class="nav-number">1.</span> <span class="nav-text">删除</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%EF%BC%9A%E5%BD%93%E5%88%97%E8%A1%A8%E4%B8%AD%E5%8F%AA%E5%89%A9%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E5%8F%88%E8%A2%AB%E5%88%A0%E5%B9%B2%E5%87%80%E4%B9%8B%E5%90%8E%EF%BC%8Clist%E5%88%97%E8%A1%A8%E5%86%85%E6%97%A0%E5%85%83%E7%B4%A0%EF%BC%8C%E6%97%A0%E6%B3%95%E5%86%99%E5%85%A5show%E5%88%97%E8%A1%A8%EF%BC%8C%E6%89%80%E4%BB%A5try-except%E6%8E%92%E5%BC%82"><span class="nav-number"></span> <span class="nav-text">注意：当列表中只剩下一个元素又被删干净之后，list列表内无元素，无法写入show列表，所以try except排异</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%92%AD%E6%94%BE%E9%9F%B3%E4%B9%90%EF%BC%88%E7%BB%88%E4%BA%8E%E8%83%BD%E5%90%AC%E4%B8%AA%E5%93%8D%E4%BA%86%EF%BC%89"><span class="nav-number">1.</span> <span class="nav-text">播放音乐（终于能听个响了）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%81%9C%E6%AD%A2"><span class="nav-number">2.</span> <span class="nav-text">停止</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%A7%E7%BB%AD%E6%92%AD%E6%94%BE"><span class="nav-number">3.</span> <span class="nav-text">继续播放</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9F%B3%E9%87%8F%E8%B0%83%E6%95%B4"><span class="nav-number">4.</span> <span class="nav-text">音量调整</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#root"><span class="nav-number">4.0.1.</span> <span class="nav-text">root()</span></a></li></ol></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name"></p>
+  <div class="site-description" itemprop="description"></div>
 </div>
-  
-  
-    <script async src="/homepage/js/copy-codeblock.js?v=1713059817868"></script>
-  
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/homepage/archives/">
+        
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">tags</span>
+      </div>
+  </nav>
+</div>
 
-  
-      <div class="nexmoe-post-footer">
-          请在你的配置文件中设置 slotComment
+
 
       </div>
-  
-</div></div><div class="nexmoe-post-right">    <div class="nexmoe-fixed">
-        <div class="nexmoe-tool">
 
-            
-
-            
-            
-            <button class="mdui-fab catalog" style="overflow:unset;">
-                <i class="nexmoefont icon-i-catalog"></i>
-                <div class="nexmoe-toc">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Python-%E5%BA%93%E7%9A%84%E5%AF%BC%E5%85%A5"><span class="toc-number">1.</span> <span class="toc-text">Python 库的导入</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96%E5%88%97%E8%A1%A8"><span class="toc-number">2.</span> <span class="toc-text">初始化列表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A3%80%E6%B5%8B%E6%96%87%E4%BB%B6%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8"><span class="toc-number">3.</span> <span class="toc-text">检测文件是否存在</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B3%A8%E6%84%8F%E8%BF%99%E8%BE%B9%E8%A6%81%E5%86%99readlines%E4%B8%8D%E7%84%B6%E4%BC%9A%E6%8A%8A%E6%89%80%E6%9C%89%E7%9A%84%E4%B8%80%E4%B8%AA%E4%B8%AA%E5%AD%97%E6%AF%8D%E6%8B%86%E5%88%86%E4%B8%8B%E6%9D%A5%E5%82%A8%E5%AD%98%E5%88%B0%E5%88%97%E8%A1%A8%E4%B8%AD%E5%8E%BB"><span class="toc-number"></span> <span class="toc-text">注意这边要写readlines不然会把所有的一个个字母拆分下来储存到列表中去</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8C%89%E7%85%A7%E6%88%91%E5%86%99%E4%BB%A3%E7%A0%81%E7%9A%84%E4%B9%A0%E6%83%AF%EF%BC%8C%E6%88%91%E5%96%9C%E6%AC%A2%E5%85%88%E7%A9%BA%E5%87%BA%E5%9C%B0%E6%96%B9%EF%BC%8C%E6%8A%8AUI%E6%94%BE%E5%9C%A8%E5%90%8E%E9%9D%A2%EF%BC%8C%E5%85%88%E5%86%99UI%E3%80%82%E4%BD%86%E6%98%AF%E6%83%B3%E4%BA%86%E6%83%B3%E5%8F%91%E7%8E%B0%E5%86%99%E5%8D%9A%E5%AE%A2%E4%B8%8D%E6%98%93%E7%9C%8B%E6%87%82%EF%BC%8C%E6%89%80%E4%BB%A5%E6%8F%90%E5%89%8D%E5%88%B0%E8%BF%99%E9%87%8C"><span class="toc-number">0.1.</span> <span class="toc-text">按照我写代码的习惯，我喜欢先空出地方，把UI放在后面，先写UI。但是想了想发现写博客不易看懂，所以提前到这里</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90"><span class="toc-number">1.</span> <span class="toc-text">添加音乐</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#filename-os-path-basename-item-%E5%88%86%E7%A6%BB%E6%96%87%E4%BB%B6%E5%90%8D%E5%92%8C%E8%B7%AF%E5%BE%84%E5%B9%B6%E5%AD%98%E5%85%A5music-show%EF%BC%8C%E5%BE%85%E4%BC%9A%E7%94%A8%E4%BA%8E%E5%B1%95%E7%A4%BA"><span class="toc-number"></span> <span class="toc-text">filename&#x3D;os.path.basename(item) 分离文件名和路径并存入music_show，待会用于展示</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%A0%E9%99%A4"><span class="toc-number">1.</span> <span class="toc-text">删除</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B3%A8%E6%84%8F%EF%BC%9A%E5%BD%93%E5%88%97%E8%A1%A8%E4%B8%AD%E5%8F%AA%E5%89%A9%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E5%8F%88%E8%A2%AB%E5%88%A0%E5%B9%B2%E5%87%80%E4%B9%8B%E5%90%8E%EF%BC%8Clist%E5%88%97%E8%A1%A8%E5%86%85%E6%97%A0%E5%85%83%E7%B4%A0%EF%BC%8C%E6%97%A0%E6%B3%95%E5%86%99%E5%85%A5show%E5%88%97%E8%A1%A8%EF%BC%8C%E6%89%80%E4%BB%A5try-except%E6%8E%92%E5%BC%82"><span class="toc-number"></span> <span class="toc-text">注意：当列表中只剩下一个元素又被删干净之后，list列表内无元素，无法写入show列表，所以try except排异</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%92%AD%E6%94%BE%E9%9F%B3%E4%B9%90%EF%BC%88%E7%BB%88%E4%BA%8E%E8%83%BD%E5%90%AC%E4%B8%AA%E5%93%8D%E4%BA%86%EF%BC%89"><span class="toc-number">1.</span> <span class="toc-text">播放音乐（终于能听个响了）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%81%9C%E6%AD%A2"><span class="toc-number">2.</span> <span class="toc-text">停止</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%A7%E7%BB%AD%E6%92%AD%E6%94%BE"><span class="toc-number">3.</span> <span class="toc-text">继续播放</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9F%B3%E9%87%8F%E8%B0%83%E6%95%B4"><span class="toc-number">4.</span> <span class="toc-text">音量调整</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#root"><span class="toc-number">4.0.1.</span> <span class="toc-text">root()</span></a></li></ol></li></ol></li></ol>
-                </div>
-            </button>
-            
-
-            
-
-            <a href="#nexmoe-content" class="backtop toc-link" aria-label="Back To Top" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
-        </div>
     </div>
-</div></div><div id="nexmoe-footer"><!--!--></div><div id="nexmoe-search-space"><div class="search-container"><div class="search-header"><div class="search-input-container"><input class="search-input" type="text" placeholder="Search" onInput="sinput();"></div><a class="search-close" onclick="sclose();">×</a></div><div class="search-body"></div></div></div><div><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058306854838448" crossorigin="anonymous"></script>
-</div></body></html>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"></span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/homepage/lib/anime.min.js"></script>
+  <script src="/homepage/lib/velocity/velocity.min.js"></script>
+  <script src="/homepage/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/homepage/js/utils.js"></script>
+
+<script src="/homepage/js/motion.js"></script>
+
+
+<script src="/homepage/js/schemes/muse.js"></script>
+
+
+<script src="/homepage/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
