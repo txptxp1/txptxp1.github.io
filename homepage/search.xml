@@ -31,26 +31,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2024-4-18随记</title>
-    <url>/homepage/2024/04/18/2024-4-18%E9%9A%8F%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>考试终于结束了</p>
-<p>BYD英语没考好，当然其他几门也没考好</p>
-<p>地理选择错13题，老师教的不行（不是开脱，上学期教的班全倒数，分班之后也是）</p>
-<span id="more"></span>
-<hr>
-<h1 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h1><p>终于有时间搞OCR了<br>之前想重写但是一直没来的急<br>现在打算用pyqt重写UI<br>（貌似tkinter-tool发展的也不错？）<br>大概这周能搞</p>
-<h1 id="学校生活"><a href="#学校生活" class="headerlink" title="学校生活"></a>学校生活</h1><p>班上实在太无聊了<br>打音游的，玩gal的全在别人班上<br>有趣的事也在别人班上<br>优秀的教师还在别人班上<br>所以为什么我会分到这个班…<br>不过既然已经分完了那就无所谓了<br>反正，就剩下两年半不到的时间就毕业了</p>
-<h1 id="规划"><a href="#规划" class="headerlink" title="规划"></a>规划</h1><p>暑假打算学一下html，css，js这些<br>前后端什么的<br>到时候看看有没有闲钱搞个服务器<br>单片机目前没时间学而且设备限制学不了</p>
-<hr>
-<p>虽然说无聊但是日子还是得过的<br>马上放五一了，假期准备躺着过</p>
-]]></content>
-      <tags>
-        <tag>生活</tag>
-        <tag>随记</tag>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2024/4/17随记</title>
     <url>/homepage/2024/04/17/2024-4-17%E9%9A%8F%E8%AE%B0/</url>
     <content><![CDATA[<p>说是4&#x2F;17的随记<br>其实已经快4&#x2F;18了</p>
@@ -74,6 +54,44 @@
 <p>待会重新搞一个about me的网页<br>主页搞一个blog搞一个</p>
 <h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><p>虽然推完里奈优美百合线很不想推里奈线<br>但是剧情还是得过的<br>找个时间把剧情过了吧</p>
 <h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>期中过后五一快来了<br>希望学校能把假放全吧</p>
+]]></content>
+      <tags>
+        <tag>生活</tag>
+        <tag>随记</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024-4-18随记</title>
+    <url>/homepage/2024/04/18/2024-4-18%E9%9A%8F%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>考试终于结束了</p>
+<p>BYD英语没考好，当然其他几门也没考好</p>
+<p>地理选择错13题，老师教的不行（不是开脱，上学期教的班全倒数，分班之后也是）</p>
+<span id="more"></span>
+<hr>
+<h1 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h1><p>终于有时间搞OCR了<br>之前想重写但是一直没来的急<br>现在打算用pyqt重写UI<br>（貌似tkinter-tool发展的也不错？）<br>大概这周能搞</p>
+<h1 id="学校生活"><a href="#学校生活" class="headerlink" title="学校生活"></a>学校生活</h1><p>班上实在太无聊了<br>打音游的，玩gal的全在别人班上<br>有趣的事也在别人班上<br>优秀的教师还在别人班上<br>所以为什么我会分到这个班…<br>不过既然已经分完了那就无所谓了<br>反正，就剩下两年半不到的时间就毕业了</p>
+<h1 id="规划"><a href="#规划" class="headerlink" title="规划"></a>规划</h1><p>暑假打算学一下html，css，js这些<br>前后端什么的<br>到时候看看有没有闲钱搞个服务器<br>单片机目前没时间学而且设备限制学不了</p>
+<hr>
+<p>虽然说无聊但是日子还是得过的<br>马上放五一了，假期准备躺着过</p>
+]]></content>
+      <tags>
+        <tag>生活</tag>
+        <tag>随记</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024-4-20随记</title>
+    <url>/homepage/2024/04/20/2024-4-20%E9%9A%8F%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="OCR进度"><a href="#OCR进度" class="headerlink" title="OCR进度"></a>OCR进度</h1><p>OCR的项目进展已经快一半了，用的是tkintertools<br>其实一开始的确想用pyqt<br>但是想了想，还要去学一个新的模块，好烦<br>然后直接选择tktools了<br>至于美观，肯定比tk美观</p>
+<h2 id="以前的版本"><a href="#以前的版本" class="headerlink" title="以前的版本"></a>以前的版本</h2><p>年少不知return和传参好，错把global当成宝</p>
+<p>之前写的一个OCR里面全是全局变量，特别逆天，能用全局变量绝不用传参和return<br>UI用的tkinter<br>因为烂，所以源码就不放了<br>不过给大家下了玩玩还是可以的<br><a href="https://wwo.lanzoum.com/iSXQz1scva2f">点此下载</a></p>
+<hr>
+<h1 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h1><p>寄了，这下彻底废了<br>以后要把精力放在学习上了…..<br>虽然极不情愿，但是没办法</p>
+<h1 id="每日一蚌"><a href="#每日一蚌" class="headerlink" title="每日一蚌"></a>每日一蚌</h1><p>我朋友把idcard和phone两个变量搞反了导致de了半天的bug<br>发现还是因为去掉了字符数量限制，到后端一看身份证和手机号一样的</p>
+<p>让我们一起笑他wwwwwwwww</p>
+<h1 id="转载声明"><a href="#转载声明" class="headerlink" title="转载声明"></a>转载声明</h1><p>待会搞，不过yysy<br>我平常发些日常的东西在上面也不需要标注转载说明<br>能不能在写blog的时候可以选择去掉<br>等我细细研究一下NexT</p>
 ]]></content>
       <tags>
         <tag>生活</tag>
@@ -163,6 +181,16 @@
       </tags>
   </entry>
   <entry>
+    <title>关于此站</title>
+    <url>/homepage/2024/04/13/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/</url>
+    <content><![CDATA[<p>怎么说呢，其实就是临时起意搞得一个托管网站<br>以后会往上面发发自己写的小项目之类的<br>自己之前从来没在GitHub上发过什么，主要是因为写的东西GitHub上有更优的，发了没什么意义，以后就记录记录生活吧</p>
+<p>本人会python当然也只会python，之前有过想学c搞单片机但是奈何时间不够就放弃了</p>
+<h2 id="让我想想我还能写些什么"><a href="#让我想想我还能写些什么" class="headerlink" title="让我想想我还能写些什么"></a>让我想想我还能写些什么</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">print</span> (<span class="string">&#x27;helloworld&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>第一次接触编程是在初中，当时python学一半半途而废了，后来高一寒假学的</p>
+<h2 id="托管网站的一些事儿"><a href="#托管网站的一些事儿" class="headerlink" title="托管网站的一些事儿"></a>托管网站的一些事儿</h2><p>当时搞了半天都搞不懂为什么GitHub的链接正常，但是cloud flare加载的就会只剩下html，后来发现hexo的配置文件链接填错了……</p>
+]]></content>
+  </entry>
+  <entry>
     <title>若、生命于明日落幕</title>
     <url>/homepage/2024/04/20/%E8%8B%A5%EF%BC%8C%E7%94%9F%E5%91%BD%E4%BA%8E%E6%98%8E%E6%97%A5%E8%90%BD%E5%B9%95/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>可能会有所剧透，剧透处会提醒</p>
@@ -230,15 +258,5 @@
         <tag>游戏</tag>
         <tag>VNG</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>关于此站</title>
-    <url>/homepage/2024/04/13/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/</url>
-    <content><![CDATA[<p>怎么说呢，其实就是临时起意搞得一个托管网站<br>以后会往上面发发自己写的小项目之类的<br>自己之前从来没在GitHub上发过什么，主要是因为写的东西GitHub上有更优的，发了没什么意义，以后就记录记录生活吧</p>
-<p>本人会python当然也只会python，之前有过想学c搞单片机但是奈何时间不够就放弃了</p>
-<h2 id="让我想想我还能写些什么"><a href="#让我想想我还能写些什么" class="headerlink" title="让我想想我还能写些什么"></a>让我想想我还能写些什么</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">print</span> (<span class="string">&#x27;helloworld&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<p>第一次接触编程是在初中，当时python学一半半途而废了，后来高一寒假学的</p>
-<h2 id="托管网站的一些事儿"><a href="#托管网站的一些事儿" class="headerlink" title="托管网站的一些事儿"></a>托管网站的一些事儿</h2><p>当时搞了半天都搞不懂为什么GitHub的链接正常，但是cloud flare加载的就会只剩下html，后来发现hexo的配置文件链接填错了……</p>
-]]></content>
   </entry>
 </search>
