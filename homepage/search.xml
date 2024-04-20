@@ -119,16 +119,6 @@
       </tags>
   </entry>
   <entry>
-    <title>关于此站</title>
-    <url>/homepage/2024/04/13/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/</url>
-    <content><![CDATA[<p>怎么说呢，其实就是临时起意搞得一个托管网站<br>以后会往上面发发自己写的小项目之类的<br>自己之前从来没在GitHub上发过什么，主要是因为写的东西GitHub上有更优的，发了没什么意义，以后就记录记录生活吧</p>
-<p>本人会python当然也只会python，之前有过想学c搞单片机但是奈何时间不够就放弃了</p>
-<h2 id="让我想想我还能写些什么"><a href="#让我想想我还能写些什么" class="headerlink" title="让我想想我还能写些什么"></a>让我想想我还能写些什么</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">print</span> (<span class="string">&#x27;helloworld&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<p>第一次接触编程是在初中，当时python学一半半途而废了，后来高一寒假学的</p>
-<h2 id="托管网站的一些事儿"><a href="#托管网站的一些事儿" class="headerlink" title="托管网站的一些事儿"></a>托管网站的一些事儿</h2><p>当时搞了半天都搞不懂为什么GitHub的链接正常，但是cloud flare加载的就会只剩下html，后来发现hexo的配置文件链接填错了……</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Python自动上传网页至GitHub</title>
     <url>/homepage/2024/04/15/Python%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0%E7%BD%91%E9%A1%B5%E8%87%B3GitHub/</url>
     <content><![CDATA[<p>怎么个事儿呢<br>就是说我这个网页部署在GitHub的一个文件夹里，根目录是我的主页，但是这就导致了一个问题：<br>我没法直接通过hexo d上传文件<br>这样倒也好解决，直接手动上传好啦<br>但是我懒~~~~~<br>于是乎用Python写了个能自动上传的程序<br>这样下次写东西直接上传即可</p>
@@ -173,6 +163,16 @@
       </tags>
   </entry>
   <entry>
+    <title>关于此站</title>
+    <url>/homepage/2024/04/13/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/</url>
+    <content><![CDATA[<p>怎么说呢，其实就是临时起意搞得一个托管网站<br>以后会往上面发发自己写的小项目之类的<br>自己之前从来没在GitHub上发过什么，主要是因为写的东西GitHub上有更优的，发了没什么意义，以后就记录记录生活吧</p>
+<p>本人会python当然也只会python，之前有过想学c搞单片机但是奈何时间不够就放弃了</p>
+<h2 id="让我想想我还能写些什么"><a href="#让我想想我还能写些什么" class="headerlink" title="让我想想我还能写些什么"></a>让我想想我还能写些什么</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">print</span> (<span class="string">&#x27;helloworld&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>第一次接触编程是在初中，当时python学一半半途而废了，后来高一寒假学的</p>
+<h2 id="托管网站的一些事儿"><a href="#托管网站的一些事儿" class="headerlink" title="托管网站的一些事儿"></a>托管网站的一些事儿</h2><p>当时搞了半天都搞不懂为什么GitHub的链接正常，但是cloud flare加载的就会只剩下html，后来发现hexo的配置文件链接填错了……</p>
+]]></content>
+  </entry>
+  <entry>
     <title>若、生命于明日落幕</title>
     <url>/homepage/2024/04/20/%E8%8B%A5%EF%BC%8C%E7%94%9F%E5%91%BD%E4%BA%8E%E6%98%8E%E6%97%A5%E8%90%BD%E5%B9%95/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>可能会有所剧透，剧透处会提醒</p>
@@ -200,7 +200,11 @@
 <p>这些东西背负在她身上<br>即使她上进，她努力，仍然无济于事，再加上身上背负的担子<br>使她有了不想死但是也不想活的想法</p>
 <p>拒绝上补习班，但是学习却学不过<br>在意成绩却又不想去面对<br>成绩崩坏，心态炸裂，从而对人生失望，对学习厌烦的死循环就出现了<br>总归来说，就是摆烂摆不烂，内卷卷不过<br>而且身上还有各种负担，以及从出生开始就被灌输的要考好学校的观点<br>但是上了重点高中之后又跟不上</p>
 <blockquote>
-<p>因为向上走就意味着“比周围的人更好”<br>最终导致了<br>明明不懂得降生于世的含义，不懂活着的理由，却还是要继续前行<br>在这种艰难混沌的世界————<br>人生只有接二连三的痛苦</p>
+<p>因为向上走就意味着“比周围的人更好”</p>
+</blockquote>
+<p>最终导致了</p>
+<blockquote>
+<p>明明不懂得降生于世的含义，不懂活着的理由，却还是要继续前行<br>在这种艰难混沌的世界————<br>人生只有接二连三的痛苦</p>
 </blockquote>
 <p><img src="https://bucket.iczrx.cn/2024/04/20/662320e0d3597.png" alt="C8C00787FF1B1F2465EB28FAC35CF6C6.png"><br>但是在她游玩了一天之后，她发现了，自己只是想寻求一个解脱，一个能给自己喘息的时间<br>其实并不想死，只是不想活着，不想面对<br>所以，才会在生命落幕前，反复的问自己</p>
 <blockquote>
