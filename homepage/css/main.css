@@ -1313,7 +1313,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #0a24ff;
+  background: #5dff04;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2816,11 +2816,10 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background: url("/images/background.png");
+  background-image: url("/images/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+  background-size: 100% 100%;
 }
 .post-block {
   background: rgba(255,255,255,0.9) none repeat scroll !important;
