@@ -62,24 +62,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2024-4-20随记</title>
-    <url>/homepage/posts/1bd8065d.html</url>
-    <content><![CDATA[<h1 id="OCR进度"><a href="#OCR进度" class="headerlink" title="OCR进度"></a>OCR进度</h1><p>OCR的项目进展已经快一半了，用的是tkintertools<br>其实一开始的确想用pyqt<br>但是想了想，还要去学一个新的模块，好烦<br>然后直接选择tktools了<br>至于美观，肯定比tk美观</p>
-<h2 id="以前的版本"><a href="#以前的版本" class="headerlink" title="以前的版本"></a>以前的版本</h2><p>年少不知return和传参好，错把global当成宝</p>
-<p>之前写的一个OCR里面全是全局变量，特别逆天，能用全局变量绝不用传参和return<br>UI用的tkinter<br>因为烂，所以源码就不放了<br>不过给大家下了玩玩还是可以的<br><a href="https://wwo.lanzoum.com/iSXQz1scva2f">点此下载</a></p>
-<hr>
-<h1 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h1><p>寄了，这下彻底废了<br>以后要把精力放在学习上了…..<br>虽然极不情愿，但是没办法</p>
-<h1 id="每日一蚌"><a href="#每日一蚌" class="headerlink" title="每日一蚌"></a>每日一蚌</h1><p>我朋友把idcard和phone两个变量搞反了导致de了半天的bug<br>发现还是因为去掉了字符数量限制，到后端一看身份证和手机号一样的</p>
-<p>让我们一起笑他wwwwwwwww</p>
-<h1 id="转载声明"><a href="#转载声明" class="headerlink" title="转载声明"></a>转载声明</h1><p>待会搞，不过yysy<br>我平常发些日常的东西在上面也不需要标注转载说明<br>能不能在写blog的时候可以选择去掉<br>等我细细研究一下NexT</p>
-]]></content>
-      <tags>
-        <tag>生活</tag>
-        <tag>随记</tag>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2024-4-18随记</title>
     <url>/homepage/posts/a6b84fd9.html</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>考试终于结束了</p>
@@ -100,6 +82,24 @@
       </tags>
   </entry>
   <entry>
+    <title>2024-4-20随记</title>
+    <url>/homepage/posts/1bd8065d.html</url>
+    <content><![CDATA[<h1 id="OCR进度"><a href="#OCR进度" class="headerlink" title="OCR进度"></a>OCR进度</h1><p>OCR的项目进展已经快一半了，用的是tkintertools<br>其实一开始的确想用pyqt<br>但是想了想，还要去学一个新的模块，好烦<br>然后直接选择tktools了<br>至于美观，肯定比tk美观</p>
+<h2 id="以前的版本"><a href="#以前的版本" class="headerlink" title="以前的版本"></a>以前的版本</h2><p>年少不知return和传参好，错把global当成宝</p>
+<p>之前写的一个OCR里面全是全局变量，特别逆天，能用全局变量绝不用传参和return<br>UI用的tkinter<br>因为烂，所以源码就不放了<br>不过给大家下了玩玩还是可以的<br><a href="https://wwo.lanzoum.com/iSXQz1scva2f">点此下载</a></p>
+<hr>
+<h1 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h1><p>寄了，这下彻底废了<br>以后要把精力放在学习上了…..<br>虽然极不情愿，但是没办法</p>
+<h1 id="每日一蚌"><a href="#每日一蚌" class="headerlink" title="每日一蚌"></a>每日一蚌</h1><p>我朋友把idcard和phone两个变量搞反了导致de了半天的bug<br>发现还是因为去掉了字符数量限制，到后端一看身份证和手机号一样的</p>
+<p>让我们一起笑他wwwwwwwww</p>
+<h1 id="转载声明"><a href="#转载声明" class="headerlink" title="转载声明"></a>转载声明</h1><p>待会搞，不过yysy<br>我平常发些日常的东西在上面也不需要标注转载说明<br>能不能在写blog的时候可以选择去掉<br>等我细细研究一下NexT</p>
+]]></content>
+      <tags>
+        <tag>生活</tag>
+        <tag>随记</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2024-4-23随记</title>
     <url>/homepage/posts/2a301cc0.html</url>
     <content><![CDATA[<h1 id="假期"><a href="#假期" class="headerlink" title="假期"></a>假期</h1><p>马上就快五一了<br>现在调休连着上课累死了<br>根本没时间发blog</p>
@@ -108,6 +108,28 @@
 <hr>
 <p>不写了<br>左手现在使不上劲，估计昨天给自己干废了，现在小臂肌肉还疼<br>估计腱鞘炎（玩音游玩的，后遗症落下了属于是）</p>
 <p>等有时间再把近况进行详细说明吧</p>
+]]></content>
+      <tags>
+        <tag>生活</tag>
+        <tag>随记</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024-04-28随记</title>
+    <url>/homepage/posts/78399448.html</url>
+    <content><![CDATA[<h1 id="有关ocr翻译器"><a href="#有关ocr翻译器" class="headerlink" title="有关ocr翻译器"></a>有关ocr翻译器</h1><h2 id="在线OCR"><a href="#在线OCR" class="headerlink" title="在线OCR"></a>在线OCR</h2><p>百度的免费额度用完了<br>用在测试上的<br>当时想能不能优化代码提高效率<br>结果倒欠了百度整整0.08元的巨款<br>嗯没错，OCR欠费了…</p>
+<p>所以我打算部署一个本地OCR</p>
+<span id="more"></span>
+<h2 id="本地OCR"><a href="#本地OCR" class="headerlink" title="本地OCR"></a>本地OCR</h2><h3 id="paddle-ocr"><a href="#paddle-ocr" class="headerlink" title="paddle ocr"></a>paddle ocr</h3><p>一开始我的首选是paddle ocr<br>因为没看懂文档再加上网上乱七八糟的教程<br>导致我没部署成功</p>
+<h3 id="dddd-ocr"><a href="#dddd-ocr" class="headerlink" title="dddd_ocr"></a>dddd_ocr</h3><p>这个ocr语法简洁，成了我的第二选择<br>但是~好像针对验证码的识别不错，但是文本就差强人意了<br>所以没选</p>
+<h3 id="easy-ocr"><a href="#easy-ocr" class="headerlink" title="easy ocr"></a>easy ocr</h3><p>一直用不了，不知道抽什么风</p>
+<h3 id="tesseract"><a href="#tesseract" class="headerlink" title="tesseract"></a>tesseract</h3><p>这玩意给了我希望然后就没有然后了…<br>不知道为什么我的识别精度（只要背景稍微杂乱一点）都会很低<br>用了二值法也不行</p>
+<h3 id="paddle-ocr-1"><a href="#paddle-ocr-1" class="headerlink" title="paddle ocr"></a>paddle ocr</h3><p>终于~<br>用回了paddle<br>发现真的好用，精度还高<br>就是速度慢了点</p>
+<h2 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h2><p>等下计划搞一个词典进去本地翻译<br>省的还要欠腾讯钱</p>
+<h1 id="五一假期"><a href="#五一假期" class="headerlink" title="五一假期"></a>五一假期</h1><p>铸币学校放4天<br>江苏改革之后假期都是全的<br>别的学校都放全了<br>就我们学校铸币<br>赶进度（一天时间也赶不了多少进度）</p>
+<p>到时候看看renpy怎么用<br>续写sprb的故事（其实就是把官方小说做成日后谈）</p>
+<h1 id="万花镜和o神联动？"><a href="#万花镜和o神联动？" class="headerlink" title="万花镜和o神联动？"></a>万花镜和o神联动？</h1><p>要真联动4里面也和初音联动了<br>估计官方整活（或者也有可能碰瓷？蹭热度？）<br>类似于三色绘恋里的‘移不动，联不通’和‘魔兽争霸’</p>
 ]]></content>
       <tags>
         <tag>生活</tag>
@@ -150,28 +172,6 @@
       </categories>
       <tags>
         <tag>技术</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024-04-28随记</title>
-    <url>/homepage/posts/78399448.html</url>
-    <content><![CDATA[<h1 id="有关ocr翻译器"><a href="#有关ocr翻译器" class="headerlink" title="有关ocr翻译器"></a>有关ocr翻译器</h1><h2 id="在线OCR"><a href="#在线OCR" class="headerlink" title="在线OCR"></a>在线OCR</h2><p>百度的免费额度用完了<br>用在测试上的<br>当时想能不能优化代码提高效率<br>结果倒欠了百度整整0.08元的巨款<br>嗯没错，OCR欠费了…</p>
-<p>所以我打算部署一个本地OCR</p>
-<span id="more"></span>
-<h2 id="本地OCR"><a href="#本地OCR" class="headerlink" title="本地OCR"></a>本地OCR</h2><h3 id="paddle-ocr"><a href="#paddle-ocr" class="headerlink" title="paddle ocr"></a>paddle ocr</h3><p>一开始我的首选是paddle ocr<br>因为没看懂文档再加上网上乱七八糟的教程<br>导致我没部署成功</p>
-<h3 id="dddd-ocr"><a href="#dddd-ocr" class="headerlink" title="dddd_ocr"></a>dddd_ocr</h3><p>这个ocr语法简洁，成了我的第二选择<br>但是~好像针对验证码的识别不错，但是文本就差强人意了<br>所以没选</p>
-<h3 id="easy-ocr"><a href="#easy-ocr" class="headerlink" title="easy ocr"></a>easy ocr</h3><p>一直用不了，不知道抽什么风</p>
-<h3 id="tesseract"><a href="#tesseract" class="headerlink" title="tesseract"></a>tesseract</h3><p>这玩意给了我希望然后就没有然后了…<br>不知道为什么我的识别精度（只要背景稍微杂乱一点）都会很低<br>用了二值法也不行</p>
-<h3 id="paddle-ocr-1"><a href="#paddle-ocr-1" class="headerlink" title="paddle ocr"></a>paddle ocr</h3><p>终于~<br>用回了paddle<br>发现真的好用，精度还高<br>就是速度慢了点</p>
-<h2 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h2><p>等下计划搞一个词典进去本地翻译<br>省的还要欠腾讯钱</p>
-<h1 id="五一假期"><a href="#五一假期" class="headerlink" title="五一假期"></a>五一假期</h1><p>铸币学校放4天<br>江苏改革之后假期都是全的<br>别的学校都放全了<br>就我们学校铸币<br>赶进度（一天时间也赶不了多少进度）</p>
-<p>到时候看看renpy怎么用<br>续写sprb的故事（其实就是把官方小说做成日后谈）</p>
-<h1 id="万花镜和o神联动？"><a href="#万花镜和o神联动？" class="headerlink" title="万花镜和o神联动？"></a>万花镜和o神联动？</h1><p>要真联动4里面也和初音联动了<br>估计官方整活（或者也有可能碰瓷？蹭热度？）<br>类似于三色绘恋里的‘移不动，联不通’和‘魔兽争霸’</p>
-]]></content>
-      <tags>
-        <tag>生活</tag>
-        <tag>随记</tag>
-        <tag>diary</tag>
       </tags>
   </entry>
   <entry>
