@@ -6,7 +6,7 @@
   <link href="https://adeptmicors279-github-io.pages.dev/homepage/atom.xml" rel="self"/>
   
   <link href="https://adeptmicors279-github-io.pages.dev/homepage/"/>
-  <updated>2024-04-30T14:57:33.631Z</updated>
+  <updated>2024-04-30T15:01:26.071Z</updated>
   <id>https://adeptmicors279-github-io.pages.dev/homepage/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://adeptmicors279-github-io.pages.dev/homepage/posts/d5e66b04.html"/>
     <id>https://adeptmicors279-github-io.pages.dev/homepage/posts/d5e66b04.html</id>
     <published>2024-04-30T14:10:25.000Z</published>
-    <updated>2024-04-30T14:57:33.631Z</updated>
+    <updated>2024-04-30T15:01:26.071Z</updated>
     
     <content type="html"><![CDATA[<h1 id="网站主题变更NexT–-butterfly"><a href="#网站主题变更NexT–-butterfly" class="headerlink" title="网站主题变更NexT–&gt;butterfly"></a>网站主题变更NexT–&gt;butterfly</h1><p>昨天，我把网站的主题从NexT换成了butterfly<br>NexT简介大方，功能强<br>但是好多功能都需要自己手动去添加（我是v7的版本）<br>太过于麻烦，而且出了问题还得一步步排查<br>特别是对我这种没有html，js语法基础的人更是头疼<br>所以，为了方便，我换成了butterfly<br>至少集成了一些常用的东西<br>不用一个个去配置了<br>当时我换NexT背景换半天都有问题，最后直接填写的链接才解决<br>设置的圆角还有bug<br>所以索性换了butterfly<br>还美观些</p><p>待会把剩下文章的图片添加上</p><p>可惜了，NexT的确强大，可惜不适合我</p><h1 id="近况"><a href="#近况" class="headerlink" title="近况"></a>近况</h1><p>谈谈最近的情况</p><h2 id="假日休整"><a href="#假日休整" class="headerlink" title="假日休整"></a>假日休整</h2><p>五一放假四天<br>第四天还要上晚自习，难受<br>这四天基本呆在家里了<br>还有好多事情做<br>明明放4天布置出了40天的作业<br>很难想象暑假是什么样子</p><p>放完假还得考试…</p><p>算了，趁着假期好好休息下吧</p><h2 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h2><p>之前python做的OCR已经做好了<br>明天抽个时间发出来</p><h2 id="校园生活"><a href="#校园生活" class="headerlink" title="校园生活"></a>校园生活</h2><p>最近都没怎么听课<br>一直等着五一<br>马上五一欠的还得还回来</p><p>纪委每次记名字从来不记女生<br>我前面一排女生讲话讲的都要飞起来了<br>我们这一排在地理晚自习睡觉（地理老师讲的太捞5了，听课的意义不大）<br>前面女生讲话，结果纪委把我们男生名字全记下来了（不是我睡觉你哪只耳朵听见我讲话了）</p><hr><p>语文课代表懒得收作业，所以，我的作业没被收上去（这不是第一次了）<br>老师让我罚抄六国论和答司马谏议书各三遍…</p><hr><p>这个班级呆不下去了<br>物理地理老师教的捞（我的选课是物化地）<br>化学化学学不懂<br>数学老师（也是年级主任）管的还严</p><h1 id="假期安排"><a href="#假期安排" class="headerlink" title="假期安排"></a>假期安排</h1><h2 id="写作业"><a href="#写作业" class="headerlink" title="写作业"></a>写作业</h2><p><s>自然是不可能的<br>要么抄要么抄</s><br>抽个时间把理科作业写了<br>文科…除了作文其他回校写吧，实在懒得写</p><h2 id="summer-pockets-after-story"><a href="#summer-pockets-after-story" class="headerlink" title="summer pockets after story"></a>summer pockets after story</h2><p>初三放暑假（毕业）之后推了summer pockets rb<br>当时了解到后续还有小说<br>所以读了一下<br>发现其实和后日谈差不多<br>再加上受到b站某up的启发（给出链接<a href="https://space.bilibili.com/88987601">https://space.bilibili.com/88987601</a>）<br>所以就打算做一个sprb的后日谈<br>引擎用Ren’py（别人用Ren’py是方便开发，我用是因为我只会用这个wwwww）<br>解包解了半天</p><p>这个五一开始搞，还不知道什么时候能结束</p><ul><li>[x]解包</li><li>[x]新建文件夹</li><li>[]开始制作</li></ul><h2 id="激活码"><a href="#激活码" class="headerlink" title="激活码"></a>激活码</h2><p>我同学搞了个激活码系统<br>和他要了API<br>待会接入了玩玩<br><a href="https://www.iczrx.cn/archives/29/">https://www.iczrx.cn/archives/29/</a></p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>事儿多的够让我这一整个假期头疼了<br>慢慢来吧</p>]]></content>
     
@@ -34,9 +34,9 @@
     
     
     
-    <category term="杂谈" scheme="https://adeptmicors279-github-io.pages.dev/homepage/tags/%E6%9D%82%E8%B0%88/"/>
-    
     <category term="技术" scheme="https://adeptmicors279-github-io.pages.dev/homepage/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="杂谈" scheme="https://adeptmicors279-github-io.pages.dev/homepage/tags/%E6%9D%82%E8%B0%88/"/>
     
   </entry>
   
