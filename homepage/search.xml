@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2024-5-1随记</title>
+    <url>/homepage/posts/d27f355a.html</url>
+    <content><![CDATA[<h1 id="打包问题"><a href="#打包问题" class="headerlink" title="打包问题"></a>打包问题</h1><p>不知道抽什么风，pyinstaller打包了会报错</p>
+<p><code> File &quot;D:\vsexe\OCR重置\dist\OCR翻译器\_internal\paddleocr\ppocr\postprocess\db_postprocess.py&quot;, line 25, in &lt;module&gt;</code></p>
+<p>比较难蚌，估计是我自己在别的文件里定义了两个class类，pyinstaller打包不进去导致的，待会等我把他一块并入main里看看</p>
+<p>顺便一提，我发现pyinstaller打包的时候会混入一些用不到的模块</p>
+<p>比如：</p>
+<ul>
+<li>我用的tkintertools和tkinter开发的GUI确打包进了pyqt</li>
+<li>我用的PIL截图给我乱打包进了别的模块</li>
+</ul>
+<p>等会新建虚拟环境试试</p>
+<p>以及</p>
+<p>打包的文件居然整整三百mb（我源文件就几十kb的样子）</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/01/663250332d8e7.png" alt="呐，就这么离谱"></p>
+<p>等会研究一下怎么解决</p>
+<p><del>（到时候再发一篇，文章数量不久上来了？）</del></p>
+<h1 id="Summer-pockets"><a href="#Summer-pockets" class="headerlink" title="Summer pockets"></a>Summer pockets</h1><p>怎么说呢</p>
+<p>一开始以为没有人去做sp外传的游戏</p>
+<p>没想到b站上有人做了，而且是三月份开始的</p>
+<p><a href="https://www.bilibili.com/video/BV1TE42137HD/?spm_id_from=333.880.my_history.page.click">https://www.bilibili.com/video/BV1TE42137HD/?spm_id_from=333.880.my_history.page.click</a></p>
+<p>那没事儿了啊，那我就不搞了（懒）</p>
+<p>毕竟本想着是为了提升游戏体验才打算搞的，有人搞我就没必要搞了</p>
+<p>不过为什么都喜欢用Ren’py?</p>
+<p>虽说Ren’py上手确实简答就是了…</p>
+]]></content>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2024/4/15随记</title>
     <url>/homepage/posts/b1f5bf5e.html</url>
     <content><![CDATA[<h1 id="一天的开始"><a href="#一天的开始" class="headerlink" title="一天的开始"></a>一天的开始</h1><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2019021996&auto=0&height=66"></iframe>
@@ -82,6 +113,22 @@
       </tags>
   </entry>
   <entry>
+    <title>2024-4-23随记</title>
+    <url>/homepage/posts/2a301cc0.html</url>
+    <content><![CDATA[<h1 id="假期"><a href="#假期" class="headerlink" title="假期"></a>假期</h1><p>马上就快五一了<br>现在调休连着上课累死了<br>根本没时间发blog</p>
+<h1 id="进度"><a href="#进度" class="headerlink" title="进度"></a>进度</h1><p>剩下quick_start还有翻译API的接入</p>
+<h1 id="五一计划"><a href="#五一计划" class="headerlink" title="五一计划"></a>五一计划</h1><p>打算把summer pockets的官方小说改成游戏<br>引擎使用：Renpy<br>手机得益于renpy的模拟器可以模拟器运行<br>原生适配Windows<br>其他平台以后再说？</p>
+<hr>
+<p>不写了<br>左手现在使不上劲，估计昨天给自己干废了，现在小臂肌肉还疼<br>估计腱鞘炎（玩音游玩的，后遗症落下了属于是）</p>
+<p>等有时间再把近况进行详细说明吧</p>
+]]></content>
+      <tags>
+        <tag>生活</tag>
+        <tag>随记</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2024-4-20随记</title>
     <url>/homepage/posts/1bd8065d.html</url>
     <content><![CDATA[<h1 id="OCR进度"><a href="#OCR进度" class="headerlink" title="OCR进度"></a>OCR进度</h1><p>OCR的项目进展已经快一半了，用的是tkintertools<br>其实一开始的确想用pyqt<br>但是想了想，还要去学一个新的模块，好烦<br>然后直接选择tktools了<br>至于美观，肯定比tk美观</p>
@@ -92,22 +139,6 @@
 <h1 id="每日一蚌"><a href="#每日一蚌" class="headerlink" title="每日一蚌"></a>每日一蚌</h1><p>我朋友把idcard和phone两个变量搞反了导致de了半天的bug<br>发现还是因为去掉了字符数量限制，到后端一看身份证和手机号一样的</p>
 <p>让我们一起笑他wwwwwwwww</p>
 <h1 id="转载声明"><a href="#转载声明" class="headerlink" title="转载声明"></a>转载声明</h1><p>待会搞，不过yysy<br>我平常发些日常的东西在上面也不需要标注转载说明<br>能不能在写blog的时候可以选择去掉<br>等我细细研究一下NexT</p>
-]]></content>
-      <tags>
-        <tag>生活</tag>
-        <tag>随记</tag>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024-4-23随记</title>
-    <url>/homepage/posts/2a301cc0.html</url>
-    <content><![CDATA[<h1 id="假期"><a href="#假期" class="headerlink" title="假期"></a>假期</h1><p>马上就快五一了<br>现在调休连着上课累死了<br>根本没时间发blog</p>
-<h1 id="进度"><a href="#进度" class="headerlink" title="进度"></a>进度</h1><p>剩下quick_start还有翻译API的接入</p>
-<h1 id="五一计划"><a href="#五一计划" class="headerlink" title="五一计划"></a>五一计划</h1><p>打算把summer pockets的官方小说改成游戏<br>引擎使用：Renpy<br>手机得益于renpy的模拟器可以模拟器运行<br>原生适配Windows<br>其他平台以后再说？</p>
-<hr>
-<p>不写了<br>左手现在使不上劲，估计昨天给自己干废了，现在小臂肌肉还疼<br>估计腱鞘炎（玩音游玩的，后遗症落下了属于是）</p>
-<p>等有时间再把近况进行详细说明吧</p>
 ]]></content>
       <tags>
         <tag>生活</tag>
