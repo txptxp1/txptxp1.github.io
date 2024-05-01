@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>2024-5-1随记</title>
-    <url>/homepage/posts/d27f355a.html</url>
+    <url>/homepage/posts/d6a200d.html</url>
     <content><![CDATA[<h1 id="打包问题"><a href="#打包问题" class="headerlink" title="打包问题"></a>打包问题</h1><p>不知道抽什么风，pyinstaller打包了会报错</p>
 <p><code> File &quot;D:\vsexe\OCR重置\dist\OCR翻译器\_internal\paddleocr\ppocr\postprocess\db_postprocess.py&quot;, line 25, in &lt;module&gt;</code></p>
 <p>比较难蚌，估计是我自己在别的文件里定义了两个class类，pyinstaller打包不进去导致的，待会等我把他一块并入main里看看</p>
@@ -29,6 +29,7 @@
 ]]></content>
       <tags>
         <tag>技术</tag>
+        <tag>随记</tag>
       </tags>
   </entry>
   <entry>
@@ -56,8 +57,8 @@
 <p>夜里了，写完随记到了第二天了<br>先就这样吧<br><img src="https://bucket.iczrx.cn/2024/04/16/661d530f459ec.jpg" alt="30E3BFF54A8FA7A04D5EE9BC67A0C4AE.jpg"></p>
 ]]></content>
       <tags>
-        <tag>生活</tag>
         <tag>随记</tag>
+        <tag>生活</tag>
         <tag>diary</tag>
       </tags>
   </entry>
@@ -87,8 +88,8 @@
 <h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>期中过后五一快来了<br>希望学校能把假放全吧</p>
 ]]></content>
       <tags>
-        <tag>生活</tag>
         <tag>随记</tag>
+        <tag>生活</tag>
         <tag>diary</tag>
       </tags>
   </entry>
@@ -107,24 +108,8 @@
 <p>虽然说无聊但是日子还是得过的<br>马上放五一了，假期准备躺着过</p>
 ]]></content>
       <tags>
-        <tag>生活</tag>
         <tag>随记</tag>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024-4-23随记</title>
-    <url>/homepage/posts/2a301cc0.html</url>
-    <content><![CDATA[<h1 id="假期"><a href="#假期" class="headerlink" title="假期"></a>假期</h1><p>马上就快五一了<br>现在调休连着上课累死了<br>根本没时间发blog</p>
-<h1 id="进度"><a href="#进度" class="headerlink" title="进度"></a>进度</h1><p>剩下quick_start还有翻译API的接入</p>
-<h1 id="五一计划"><a href="#五一计划" class="headerlink" title="五一计划"></a>五一计划</h1><p>打算把summer pockets的官方小说改成游戏<br>引擎使用：Renpy<br>手机得益于renpy的模拟器可以模拟器运行<br>原生适配Windows<br>其他平台以后再说？</p>
-<hr>
-<p>不写了<br>左手现在使不上劲，估计昨天给自己干废了，现在小臂肌肉还疼<br>估计腱鞘炎（玩音游玩的，后遗症落下了属于是）</p>
-<p>等有时间再把近况进行详细说明吧</p>
-]]></content>
-      <tags>
         <tag>生活</tag>
-        <tag>随记</tag>
         <tag>diary</tag>
       </tags>
   </entry>
@@ -141,8 +126,24 @@
 <h1 id="转载声明"><a href="#转载声明" class="headerlink" title="转载声明"></a>转载声明</h1><p>待会搞，不过yysy<br>我平常发些日常的东西在上面也不需要标注转载说明<br>能不能在写blog的时候可以选择去掉<br>等我细细研究一下NexT</p>
 ]]></content>
       <tags>
-        <tag>生活</tag>
         <tag>随记</tag>
+        <tag>生活</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024-4-23随记</title>
+    <url>/homepage/posts/2a301cc0.html</url>
+    <content><![CDATA[<h1 id="假期"><a href="#假期" class="headerlink" title="假期"></a>假期</h1><p>马上就快五一了<br>现在调休连着上课累死了<br>根本没时间发blog</p>
+<h1 id="进度"><a href="#进度" class="headerlink" title="进度"></a>进度</h1><p>剩下quick_start还有翻译API的接入</p>
+<h1 id="五一计划"><a href="#五一计划" class="headerlink" title="五一计划"></a>五一计划</h1><p>打算把summer pockets的官方小说改成游戏<br>引擎使用：Renpy<br>手机得益于renpy的模拟器可以模拟器运行<br>原生适配Windows<br>其他平台以后再说？</p>
+<hr>
+<p>不写了<br>左手现在使不上劲，估计昨天给自己干废了，现在小臂肌肉还疼<br>估计腱鞘炎（玩音游玩的，后遗症落下了属于是）</p>
+<p>等有时间再把近况进行详细说明吧</p>
+]]></content>
+      <tags>
+        <tag>随记</tag>
+        <tag>生活</tag>
         <tag>diary</tag>
       </tags>
   </entry>
@@ -163,8 +164,8 @@
 <h1 id="万花镜和o神联动？"><a href="#万花镜和o神联动？" class="headerlink" title="万花镜和o神联动？"></a>万花镜和o神联动？</h1><p>要真联动4里面也和初音联动了<br>估计官方整活（或者也有可能碰瓷？蹭热度？）<br>类似于三色绘恋里的‘移不动，联不通’和‘魔兽争霸’</p>
 ]]></content>
       <tags>
-        <tag>生活</tag>
         <tag>随记</tag>
+        <tag>生活</tag>
         <tag>diary</tag>
       </tags>
   </entry>
