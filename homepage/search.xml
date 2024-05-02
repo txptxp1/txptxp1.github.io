@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2024/4/15随记</title>
-    <url>/homepage/posts/b1f5bf5e.html</url>
-    <content><![CDATA[<h1 id="一天的开始"><a href="#一天的开始" class="headerlink" title="一天的开始"></a>一天的开始</h1><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2019021996&auto=0&height=66"></iframe>
-
-<p>记得几天前，电梯里就有一幅小孩画的画<br>右上角画的是太阳，中间是一个很大的蜗牛，下面是绿地和飞着的蝴蝶（大概？<br>每天早上看到这幅画都会给我带来一天开始的好心情</p>
-<p>可惜的是<br>今天晚上，我看不到那副画了<br>也许是被人丢掉了，但我更希望是原作者拿走了它<br>原本想拍下那幅画，可惜没有适宜的时机</p>
-<span id="more"></span>
-
-<hr>
-<p>上课上的好无聊…<br>总之最烦的我认为就是化学了，因为学不会<br>想当初我学化学还是因为没有物生地的班级，现在化学废了，没办法的事</p>
-<p>上完课发现自己根本不需要查漏补缺<br>因为没意义，差的太多了….</p>
-<hr>
-<p>明天还要考试，而且是期中<br>说摆烂不在乎是假的，毕竟期中啊…..<br>真怀念初中的时候，对成绩满不在乎，丝毫不关注成绩，那种纯真的摆烂带给我的不止一星半点的快乐</p>
-<p>而现在<br>只能在压抑之中</p>
-<p>不过无所谓了，不无病呻吟了<br>总之<br><img src="https://bucket.iczrx.cn/2024/04/15/661d4e0a3e630.jpg" alt="62A35772361FD6B8F9B56D37FC037871.jpg"><br>开摆！<br>哪怕是有意而为，至少比苦逼的内卷好吧<br>与其加入这无意义无止境的精神内耗之中<br>调整好自己的心态才重要吧</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span> (<span class="string">&#x27;--------------------分割线--------------------&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<p>换了个分割线<br><s>为什么？哪有那么多为什么呢</s><br>呐，说什么好呢<br>小区电梯里，广告牌上（现在被人拆掉了）女明星的胸部被戳了两个洞<br>学校厕所里，墙上有人画了个OlO<br>这些搞恶趣味的人们是有多闲呢，反正我看了是反感的</p>
-<p>也许那张小孩画的画，放在电梯里，不消几日就消失，也和这些“高素质人群”有着密切联系吧</p>
-<hr>
-<p>思绪万千，却码不出什么字来<br>还能说些什么呢？</p>
-<p>也许今天的作业还没写完？<br>也许明天考试内容没复习？<br>然而我懒得写甚至懒得抄<br>复习也是没可能的</p>
-<p>夜里了，写完随记到了第二天了<br>先就这样吧<br><img src="https://bucket.iczrx.cn/2024/04/16/661d530f459ec.jpg" alt="30E3BFF54A8FA7A04D5EE9BC67A0C4AE.jpg"></p>
-]]></content>
-      <tags>
-        <tag>生活</tag>
-        <tag>随记</tag>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2024-5-1随记</title>
     <url>/homepage/posts/d6a200d.html</url>
     <content><![CDATA[<h1 id="打包问题"><a href="#打包问题" class="headerlink" title="打包问题"></a>打包问题</h1><p>不知道抽什么风，pyinstaller打包了会报错</p>
@@ -58,8 +28,38 @@
 <p>虽说Ren’py上手确实简答就是了…</p>
 ]]></content>
       <tags>
-        <tag>随记</tag>
         <tag>技术</tag>
+        <tag>随记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024/4/15随记</title>
+    <url>/homepage/posts/b1f5bf5e.html</url>
+    <content><![CDATA[<h1 id="一天的开始"><a href="#一天的开始" class="headerlink" title="一天的开始"></a>一天的开始</h1><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2019021996&auto=0&height=66"></iframe>
+
+<p>记得几天前，电梯里就有一幅小孩画的画<br>右上角画的是太阳，中间是一个很大的蜗牛，下面是绿地和飞着的蝴蝶（大概？<br>每天早上看到这幅画都会给我带来一天开始的好心情</p>
+<p>可惜的是<br>今天晚上，我看不到那副画了<br>也许是被人丢掉了，但我更希望是原作者拿走了它<br>原本想拍下那幅画，可惜没有适宜的时机</p>
+<span id="more"></span>
+
+<hr>
+<p>上课上的好无聊…<br>总之最烦的我认为就是化学了，因为学不会<br>想当初我学化学还是因为没有物生地的班级，现在化学废了，没办法的事</p>
+<p>上完课发现自己根本不需要查漏补缺<br>因为没意义，差的太多了….</p>
+<hr>
+<p>明天还要考试，而且是期中<br>说摆烂不在乎是假的，毕竟期中啊…..<br>真怀念初中的时候，对成绩满不在乎，丝毫不关注成绩，那种纯真的摆烂带给我的不止一星半点的快乐</p>
+<p>而现在<br>只能在压抑之中</p>
+<p>不过无所谓了，不无病呻吟了<br>总之<br><img src="https://bucket.iczrx.cn/2024/04/15/661d4e0a3e630.jpg" alt="62A35772361FD6B8F9B56D37FC037871.jpg"><br>开摆！<br>哪怕是有意而为，至少比苦逼的内卷好吧<br>与其加入这无意义无止境的精神内耗之中<br>调整好自己的心态才重要吧</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span> (<span class="string">&#x27;--------------------分割线--------------------&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>换了个分割线<br><s>为什么？哪有那么多为什么呢</s><br>呐，说什么好呢<br>小区电梯里，广告牌上（现在被人拆掉了）女明星的胸部被戳了两个洞<br>学校厕所里，墙上有人画了个OlO<br>这些搞恶趣味的人们是有多闲呢，反正我看了是反感的</p>
+<p>也许那张小孩画的画，放在电梯里，不消几日就消失，也和这些“高素质人群”有着密切联系吧</p>
+<hr>
+<p>思绪万千，却码不出什么字来<br>还能说些什么呢？</p>
+<p>也许今天的作业还没写完？<br>也许明天考试内容没复习？<br>然而我懒得写甚至懒得抄<br>复习也是没可能的</p>
+<p>夜里了，写完随记到了第二天了<br>先就这样吧<br><img src="https://bucket.iczrx.cn/2024/04/16/661d530f459ec.jpg" alt="30E3BFF54A8FA7A04D5EE9BC67A0C4AE.jpg"></p>
+]]></content>
+      <tags>
+        <tag>随记</tag>
+        <tag>生活</tag>
+        <tag>diary</tag>
       </tags>
   </entry>
   <entry>
@@ -88,8 +88,8 @@
 <h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>期中过后五一快来了<br>希望学校能把假放全吧</p>
 ]]></content>
       <tags>
-        <tag>生活</tag>
         <tag>随记</tag>
+        <tag>生活</tag>
         <tag>diary</tag>
       </tags>
   </entry>
@@ -108,8 +108,8 @@
 <p>虽然说无聊但是日子还是得过的<br>马上放五一了，假期准备躺着过</p>
 ]]></content>
       <tags>
-        <tag>生活</tag>
         <tag>随记</tag>
+        <tag>生活</tag>
         <tag>diary</tag>
       </tags>
   </entry>
@@ -126,8 +126,8 @@
 <h1 id="转载声明"><a href="#转载声明" class="headerlink" title="转载声明"></a>转载声明</h1><p>待会搞，不过yysy<br>我平常发些日常的东西在上面也不需要标注转载说明<br>能不能在写blog的时候可以选择去掉<br>等我细细研究一下NexT</p>
 ]]></content>
       <tags>
-        <tag>生活</tag>
         <tag>随记</tag>
+        <tag>生活</tag>
         <tag>diary</tag>
       </tags>
   </entry>
@@ -142,8 +142,30 @@
 <p>等有时间再把近况进行详细说明吧</p>
 ]]></content>
       <tags>
-        <tag>生活</tag>
         <tag>随记</tag>
+        <tag>生活</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024-04-28随记</title>
+    <url>/homepage/posts/78399448.html</url>
+    <content><![CDATA[<h1 id="有关ocr翻译器"><a href="#有关ocr翻译器" class="headerlink" title="有关ocr翻译器"></a>有关ocr翻译器</h1><h2 id="在线OCR"><a href="#在线OCR" class="headerlink" title="在线OCR"></a>在线OCR</h2><p>百度的免费额度用完了<br>用在测试上的<br>当时想能不能优化代码提高效率<br>结果倒欠了百度整整0.08元的巨款<br>嗯没错，OCR欠费了…</p>
+<p>所以我打算部署一个本地OCR</p>
+<span id="more"></span>
+<h2 id="本地OCR"><a href="#本地OCR" class="headerlink" title="本地OCR"></a>本地OCR</h2><h3 id="paddle-ocr"><a href="#paddle-ocr" class="headerlink" title="paddle ocr"></a>paddle ocr</h3><p>一开始我的首选是paddle ocr<br>因为没看懂文档再加上网上乱七八糟的教程<br>导致我没部署成功</p>
+<h3 id="dddd-ocr"><a href="#dddd-ocr" class="headerlink" title="dddd_ocr"></a>dddd_ocr</h3><p>这个ocr语法简洁，成了我的第二选择<br>但是~好像针对验证码的识别不错，但是文本就差强人意了<br>所以没选</p>
+<h3 id="easy-ocr"><a href="#easy-ocr" class="headerlink" title="easy ocr"></a>easy ocr</h3><p>一直用不了，不知道抽什么风</p>
+<h3 id="tesseract"><a href="#tesseract" class="headerlink" title="tesseract"></a>tesseract</h3><p>这玩意给了我希望然后就没有然后了…<br>不知道为什么我的识别精度（只要背景稍微杂乱一点）都会很低<br>用了二值法也不行</p>
+<h3 id="paddle-ocr-1"><a href="#paddle-ocr-1" class="headerlink" title="paddle ocr"></a>paddle ocr</h3><p>终于~<br>用回了paddle<br>发现真的好用，精度还高<br>就是速度慢了点</p>
+<h2 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h2><p>等下计划搞一个词典进去本地翻译<br>省的还要欠腾讯钱</p>
+<h1 id="五一假期"><a href="#五一假期" class="headerlink" title="五一假期"></a>五一假期</h1><p>铸币学校放4天<br>江苏改革之后假期都是全的<br>别的学校都放全了<br>就我们学校铸币<br>赶进度（一天时间也赶不了多少进度）</p>
+<p>到时候看看renpy怎么用<br>续写sprb的故事（其实就是把官方小说做成日后谈）</p>
+<h1 id="万花镜和o神联动？"><a href="#万花镜和o神联动？" class="headerlink" title="万花镜和o神联动？"></a>万花镜和o神联动？</h1><p>要真联动4里面也和初音联动了<br>估计官方整活（或者也有可能碰瓷？蹭热度？）<br>类似于三色绘恋里的‘移不动，联不通’和‘魔兽争霸’</p>
+]]></content>
+      <tags>
+        <tag>随记</tag>
+        <tag>生活</tag>
         <tag>diary</tag>
       </tags>
   </entry>
@@ -226,28 +248,6 @@
       </categories>
       <tags>
         <tag>技术</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024-04-28随记</title>
-    <url>/homepage/posts/78399448.html</url>
-    <content><![CDATA[<h1 id="有关ocr翻译器"><a href="#有关ocr翻译器" class="headerlink" title="有关ocr翻译器"></a>有关ocr翻译器</h1><h2 id="在线OCR"><a href="#在线OCR" class="headerlink" title="在线OCR"></a>在线OCR</h2><p>百度的免费额度用完了<br>用在测试上的<br>当时想能不能优化代码提高效率<br>结果倒欠了百度整整0.08元的巨款<br>嗯没错，OCR欠费了…</p>
-<p>所以我打算部署一个本地OCR</p>
-<span id="more"></span>
-<h2 id="本地OCR"><a href="#本地OCR" class="headerlink" title="本地OCR"></a>本地OCR</h2><h3 id="paddle-ocr"><a href="#paddle-ocr" class="headerlink" title="paddle ocr"></a>paddle ocr</h3><p>一开始我的首选是paddle ocr<br>因为没看懂文档再加上网上乱七八糟的教程<br>导致我没部署成功</p>
-<h3 id="dddd-ocr"><a href="#dddd-ocr" class="headerlink" title="dddd_ocr"></a>dddd_ocr</h3><p>这个ocr语法简洁，成了我的第二选择<br>但是~好像针对验证码的识别不错，但是文本就差强人意了<br>所以没选</p>
-<h3 id="easy-ocr"><a href="#easy-ocr" class="headerlink" title="easy ocr"></a>easy ocr</h3><p>一直用不了，不知道抽什么风</p>
-<h3 id="tesseract"><a href="#tesseract" class="headerlink" title="tesseract"></a>tesseract</h3><p>这玩意给了我希望然后就没有然后了…<br>不知道为什么我的识别精度（只要背景稍微杂乱一点）都会很低<br>用了二值法也不行</p>
-<h3 id="paddle-ocr-1"><a href="#paddle-ocr-1" class="headerlink" title="paddle ocr"></a>paddle ocr</h3><p>终于~<br>用回了paddle<br>发现真的好用，精度还高<br>就是速度慢了点</p>
-<h2 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h2><p>等下计划搞一个词典进去本地翻译<br>省的还要欠腾讯钱</p>
-<h1 id="五一假期"><a href="#五一假期" class="headerlink" title="五一假期"></a>五一假期</h1><p>铸币学校放4天<br>江苏改革之后假期都是全的<br>别的学校都放全了<br>就我们学校铸币<br>赶进度（一天时间也赶不了多少进度）</p>
-<p>到时候看看renpy怎么用<br>续写sprb的故事（其实就是把官方小说做成日后谈）</p>
-<h1 id="万花镜和o神联动？"><a href="#万花镜和o神联动？" class="headerlink" title="万花镜和o神联动？"></a>万花镜和o神联动？</h1><p>要真联动4里面也和初音联动了<br>估计官方整活（或者也有可能碰瓷？蹭热度？）<br>类似于三色绘恋里的‘移不动，联不通’和‘魔兽争霸’</p>
-]]></content>
-      <tags>
-        <tag>生活</tag>
-        <tag>随记</tag>
-        <tag>diary</tag>
       </tags>
   </entry>
   <entry>
