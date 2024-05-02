@@ -365,4 +365,46 @@
         <tag>VNG</tag>
       </tags>
   </entry>
+  <entry>
+    <title>记一次paddleocr打包问题：FileNotFoundError以及ModuleNotFoundError</title>
+    <url>/homepage/posts/6793f133.html</url>
+    <content><![CDATA[<h1 id="为什么打包paddleocr时会报错"><a href="#为什么打包paddleocr时会报错" class="headerlink" title="为什么打包paddleocr时会报错"></a>为什么打包paddleocr时会报错</h1><p>在处理报错之前，我们先看看报错内容</p>
+<p><code>FileNotFoundError: [Errno 2] No such file or directory: &#39;E:\\python\\python3.11(64bit)\\dist\\demo1\\_internal\\paddleocr\\tools/__init__.py&#39;</code></p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/6633bdefd8268.png" alt="报错内容如下"></p>
+<p>报错filenofound</p>
+<p>未找到文件，看起来貌似是打包时没有把文件打包全</p>
+<h2 id="处理问题"><a href="#处理问题" class="headerlink" title="处理问题"></a>处理问题</h2><p>进入你创建的虚拟环境（当然你不创建也没关系）</p>
+<p>输入<code>pyinstall -w -D 你的路径</code>进行不完满打包</p>
+<p>然后打开<code>dist</code>里的<code>_internal</code>目录</p>
+<p>把你的Python解释器里安装的paddleocr模块全部复制过来</p>
+<p>这时候，你就会发现，欸，还是会报错，但是内容变了</p>
+<p>变成了：<code>ModuleNotFoundError: No module named &#39;shapely&#39;</code></p>
+<p>别慌，按照上述方法，继续把python解释器里site-packages里的模块给复制过来</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ModuleNotFoundError: No module named &#x27;pyclipper&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;skimage&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;pywt&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imgaug&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imageio&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;fasttext&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;lmdb&#x27;</span><br><span class="line"></span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imghdr&#x27;  </span><br><span class="line">	ModuleNotFoundError: No module named &#x27;fasttext_pybind&#x27;</span><br><span class="line"></span><br><span class="line">	ImportError: cannot import name &#x27;signal&#x27; from &#x27;scipy&#x27; (你的路径\scipy\__init__.pyc)</span><br></pre></td></tr></table></figure>
+
+<p>发生以下报错解决方法同上</p>
+<p>然后你就会发现</p>
+<p>打包完的程序可以运行了</p>
+<p>当然，请善用Windows的搜索功能</p>
+<p>如果懒得用，直接在IDE开发环境里敲</p>
+<p><code>import 模块名</code></p>
+<p>然后再按住CTRL鼠标左键即可进入模块的py文件</p>
+<p>顶部查看一下路径即可</p>
+<h2 id="那么，为什么会有这种问题呢"><a href="#那么，为什么会有这种问题呢" class="headerlink" title="那么，为什么会有这种问题呢"></a>那么，为什么会有这种问题呢</h2><p>那么，你得问pyinstaller为什么打包不全</p>
+<h1 id="OCR下载地址"><a href="#OCR下载地址" class="headerlink" title="OCR下载地址"></a>OCR下载地址</h1><p><a href="https://github.com/txptxp1/OCR-to-translate">https://github.com/txptxp1/OCR-to-translate</a></p>
+<p>这是我写的一个OCR翻译器</p>
+<p>由于paddleocr体积大</p>
+<p>我接入的本地ocr就是paddleocr</p>
+<p>所以导致我打包之后的软件体积也巨大</p>
+<p>解决方案要么去掉，要么给个选项运行的时候直接从服务器下载paddleocr文件然后本地部署</p>
+<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>参考文章<a href="https://blog.csdn.net/m0_46875088/article/details/122096159">paddleocr 打包问题_paddleocr打包太难了-CSDN博客</a></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
 </search>
