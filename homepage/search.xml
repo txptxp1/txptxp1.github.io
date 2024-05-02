@@ -366,7 +366,7 @@
       </tags>
   </entry>
   <entry>
-    <title>记一次paddleocr打包问题：FileNotFoundError以及ModuleNotFoundError</title>
+    <title>记一次paddleocr打包问题报错</title>
     <url>/homepage/posts/6793f133.html</url>
     <content><![CDATA[<h1 id="为什么打包paddleocr时会报错"><a href="#为什么打包paddleocr时会报错" class="headerlink" title="为什么打包paddleocr时会报错"></a>为什么打包paddleocr时会报错</h1><p>在处理报错之前，我们先看看报错内容</p>
 <p><code>FileNotFoundError: [Errno 2] No such file or directory: &#39;E:\\python\\python3.11(64bit)\\dist\\demo1\\_internal\\paddleocr\\tools/__init__.py&#39;</code></p>
