@@ -547,9 +547,9 @@
 
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://www.dmm.com/，DMM，https://ts2.cn.mm.bing.net/th?id=ODLS.7c778ce6-e4d3-4f5b-b293-f3f80ce60a80&amp;w=32&amp;h=32&amp;qlt=91&amp;pcl=fffffa&amp;o=6&amp;pid=1.2，实体盘购买 %&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://www.getchu.com/，Getchu，图标，介绍 %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://www.getchu.com/，Getchu %&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://www.amazon.co.jp/，亚马逊，https://ts2.cn.mm.bing.net/th?id=ODLS.bdb2a16f-c08d-4087-b259-72bdcef67d87&amp;w=32&amp;h=32&amp;qlt=90&amp;pcl=fffffa&amp;o=6&amp;pid=1.2，介绍 %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://www.amazon.co.jp/，亚马逊，https://ts2.cn.mm.bing.net/th?id=ODLS.bdb2a16f-c08d-4087-b259-72bdcef67d87&amp;w=32&amp;h=32&amp;qlt=90&amp;pcl=fffffa&amp;o=6&amp;pid=1.2 %&#125;</span><br></pre></td></tr></table></figure>
 
 
 
@@ -559,7 +559,7 @@
 <p>所以直接把地区设置成日本即可</p>
 <p>但是！很多正常文件也会因为转区而失效</p>
 <p>所以，我们需要转区工具——Locale Emulator</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://github.com/xupefei/Locale-Emulator/releases,Locale Emulator,图标,介绍 %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://github.com/xupefei/Locale-Emulator/releases，Locale Emulator %&#125;</span><br></pre></td></tr></table></figure>
 
 <p>下载之后双击LEInstaller.exe</p>
 <p><img src="https://bucket.iczrx.cn/2024/05/03/663469af367c9.png" alt="转区工具"></p>
