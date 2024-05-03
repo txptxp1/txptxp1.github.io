@@ -541,15 +541,15 @@
 <p>如果还不行就直接放弃吧</p>
 <h1 id="进阶"><a href="#进阶" class="headerlink" title="进阶"></a>进阶</h1><h2 id="支持正作"><a href="#支持正作" class="headerlink" title="支持正作"></a>支持正作</h2><p>如何支持正作呢</p>
 <p>你可以去以下平台</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://store.steampowered.com/,Steam,https://ts4.cn.mm.bing.net/th?id=ODLS.22ef81b2-31a8-4ee6-930b-a3cd7d5d6c55&amp;w=32&amp;h=32&amp;qlt=90&amp;pcl=fffffa&amp;o=6&amp;pid=1.2,Steam平台 %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://store.steampowered.com/，Steam，https://ts4.cn.mm.bing.net/th?id=ODLS.22ef81b2-31a8-4ee6-930b-a3cd7d5d6c55&amp;w=32&amp;h=32&amp;qlt=90&amp;pcl=fffffa&amp;o=6&amp;pid=1.2，Steam平台 %&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://store.hikarifield.co.jp/,HIKARI FIELD,https://static.hikarifield.co.jp/images/hf-logo.png,HIKARI FIELD平台 %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://store.hikarifield.co.jp/，HIKARI FIELD，https://static.hikarifield.co.jp/images/hf-logo.png，HIKARI FIELD平台 %&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://www.dmm.com/,DMM,https://ts2.cn.mm.bing.net/th?id=ODLS.7c778ce6-e4d3-4f5b-b293-f3f80ce60a80&amp;w=32&amp;h=32&amp;qlt=91&amp;pcl=fffffa&amp;o=6&amp;pid=1.2,实体盘购买 %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://www.dmm.com/，DMM，https://ts2.cn.mm.bing.net/th?id=ODLS.7c778ce6-e4d3-4f5b-b293-f3f80ce60a80&amp;w=32&amp;h=32&amp;qlt=91&amp;pcl=fffffa&amp;o=6&amp;pid=1.2，实体盘购买 %&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://www.getchu.com/,Getchu,图标,介绍 %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://www.getchu.com/，Getchu，图标，介绍 %&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://www.amazon.co.jp/,亚马逊,https://ts2.cn.mm.bing.net/th?id=ODLS.bdb2a16f-c08d-4087-b259-72bdcef67d87&amp;w=32&amp;h=32&amp;qlt=90&amp;pcl=fffffa&amp;o=6&amp;pid=1.2,介绍 %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% link https://www.amazon.co.jp/，亚马逊，https://ts2.cn.mm.bing.net/th?id=ODLS.bdb2a16f-c08d-4087-b259-72bdcef67d87&amp;w=32&amp;h=32&amp;qlt=90&amp;pcl=fffffa&amp;o=6&amp;pid=1.2，介绍 %&#125;</span><br></pre></td></tr></table></figure>
 
 
 
