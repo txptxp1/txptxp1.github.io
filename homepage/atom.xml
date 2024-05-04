@@ -6,7 +6,7 @@
   <link href="https://adeptmicors279-github-io.pages.dev/homepage/atom.xml" rel="self"/>
   
   <link href="https://adeptmicors279-github-io.pages.dev/homepage/"/>
-  <updated>2024-05-04T16:52:46.120Z</updated>
+  <updated>2024-05-04T17:13:44.382Z</updated>
   <id>https://adeptmicors279-github-io.pages.dev/homepage/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2024-5-5随记</title>
+    <link href="https://adeptmicors279-github-io.pages.dev/homepage/posts/f925041e.html"/>
+    <id>https://adeptmicors279-github-io.pages.dev/homepage/posts/f925041e.html</id>
+    <published>2024-05-05T16:51:29.000Z</published>
+    <updated>2024-05-04T17:13:44.382Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="网站崩了"><a href="#网站崩了" class="headerlink" title="网站崩了"></a>网站崩了</h1><p>这个b代码块的主题一直改不了</p><p><img src="https://bucket.iczrx.cn/2024/05/05/6636694227625.jpg" alt="如下"></p><p>即使设置里改为mac，hexo clean了也没用</p><p>而且</p><p>自从安上了butterfly就一直有烦人的报错</p><p>但是不影响使用</p><p><img src="https://bucket.iczrx.cn/2024/05/05/663669b2478c1.png" alt="报错如下"></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\init.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\welcome.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure><p>解决方法</p><p><a href="https://cloud.tencent.com/developer/article/2388627">Hexo升级之后Butterfly主题不兼容，发生报错：TypeError: require(…) is not a function-腾讯云开发者社区-腾讯云 (tencent.com)</a></p><p>但是吧，我npm升级了没有用，所以打算手动升级</p><p>结果升完级天真的以为_config.yml文件是一样的</p><p>想都没想直接把旧版的复制进去了</p><p>然后又是报错</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ERROR </span><br><span class="line">TypeError: E:\hexo\blog\themes\butterfly\layout\includes\layout.pug:2</span><br></pre></td></tr></table></figure><p><img src="https://bucket.iczrx.cn/2024/05/05/66366a555b7b3.png"></p><p>行！</p><p>估计又是什么乱七八糟的问题</p><p>大不了我重新配置一下</p><p>后来我重新配置了一遍，成功解决</p><p>在此期间我直接把报错生成的网页直接推到GitHub上了</p><p>所以网站崩了一会</p><p>然后设置好主题</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span> (<span class="string">&#x27;hello&#x27;</span>)</span><br></pre></td></tr></table></figure><p>好了</p><p>终于成功了</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;网站崩了&quot;&gt;&lt;a href=&quot;#网站崩了&quot; class=&quot;headerlink&quot; title=&quot;网站崩了&quot;&gt;&lt;/a&gt;网站崩了&lt;/h1&gt;&lt;p&gt;这个b代码块的主题一直改不了&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://bucket.iczrx.cn/2024/0</summary>
+      
+    
+    
+    
+    
+    <category term="随记" scheme="https://adeptmicors279-github-io.pages.dev/homepage/tags/%E9%9A%8F%E8%AE%B0/"/>
+    
+    <category term="生活" scheme="https://adeptmicors279-github-io.pages.dev/homepage/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="diary" scheme="https://adeptmicors279-github-io.pages.dev/homepage/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>萌新也能看懂的Galgame入坑教程</title>
