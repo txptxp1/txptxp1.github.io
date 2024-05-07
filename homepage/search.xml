@@ -63,16 +63,29 @@
       </tags>
   </entry>
   <entry>
-    <title>2024-4-20随记</title>
-    <url>/homepage/posts/1bd8065d.html</url>
-    <content><![CDATA[<h1 id="OCR进度"><a href="#OCR进度" class="headerlink" title="OCR进度"></a>OCR进度</h1><p>OCR的项目进展已经快一半了，用的是tkintertools<br>其实一开始的确想用pyqt<br>但是想了想，还要去学一个新的模块，好烦<br>然后直接选择tktools了<br>至于美观，肯定比tk美观</p>
-<h2 id="以前的版本"><a href="#以前的版本" class="headerlink" title="以前的版本"></a>以前的版本</h2><p>年少不知return和传参好，错把global当成宝</p>
-<p>之前写的一个OCR里面全是全局变量，特别逆天，能用全局变量绝不用传参和return<br>UI用的tkinter<br>因为烂，所以源码就不放了<br>不过给大家下了玩玩还是可以的<br><a href="https://wwo.lanzoum.com/iSXQz1scva2f">点此下载</a></p>
+    <title>2024/4/17随记</title>
+    <url>/homepage/posts/266aae77.html</url>
+    <content><![CDATA[<p>说是4&#x2F;17的随记<br>其实已经快4&#x2F;18了</p>
 <hr>
-<h1 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h1><p>寄了，这下彻底废了<br>以后要把精力放在学习上了…..<br>虽然极不情愿，但是没办法</p>
-<h1 id="每日一蚌"><a href="#每日一蚌" class="headerlink" title="每日一蚌"></a>每日一蚌</h1><p>我朋友把idcard和phone两个变量搞反了导致de了半天的bug<br>发现还是因为去掉了字符数量限制，到后端一看身份证和手机号一样的</p>
-<p>让我们一起笑他wwwwwwwww</p>
-<h1 id="转载声明"><a href="#转载声明" class="headerlink" title="转载声明"></a>转载声明</h1><p>待会搞，不过yysy<br>我平常发些日常的东西在上面也不需要标注转载说明<br>能不能在写blog的时候可以选择去掉<br>等我细细研究一下NexT</p>
+<h1 id="关于OCR翻译器"><a href="#关于OCR翻译器" class="headerlink" title="关于OCR翻译器"></a>关于OCR翻译器</h1><p>这个是我好久之前写的一个项目<br>用的是tk图形库</p>
+<span id="more"></span>
+<p>UI写的不行，所以当时打算用PyQt重写来着<br>再加上翻译API还是网上随便找的一个…</p>
+<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>双休再搞吧</p>
+<h1 id="近日概况"><a href="#近日概况" class="headerlink" title="近日概况"></a>近日概况</h1><p>化学我看是废了<br><s>谁敢和我抢化学倒一</s><br>语文这次挺难的，数学难的很难，简单的数值不好算<br>物理给我一种你能写但是你不能写的感受<br>英语没考目前</p>
+<h1 id="blog评论系统变更"><a href="#blog评论系统变更" class="headerlink" title="blog评论系统变更"></a>blog评论系统变更</h1><p>由原来的gitalk到valine再到utterances<br>让我们来看看怎么个事儿</p>
+<h2 id="gitalk"><a href="#gitalk" class="headerlink" title="gitalk"></a>gitalk</h2><p>一开始的选择<br>但是比较难用，遂放弃</p>
+<h2 id="valine"><a href="#valine" class="headerlink" title="valine"></a>valine</h2><p>不得不说这个评论系统UI好看而且还好用<br>但是国际版提交APPID和APPKEY死活出问题发不了评论<br>国内版没备案没法搞遂放弃</p>
+<h2 id="utterances"><a href="#utterances" class="headerlink" title="utterances"></a>utterances</h2><p>就是现在的这个评论系统<br>和gitalk类似，都是用的GitHub的issue<br>但是对权限管理更加细腻<br>所以选用它</p>
+<p>关键是我这个NexT版本才v7，内部没有集成此评论，还得自己加…<br>网上看教程碰了不少壁<br>好在最后成功了</p>
+<h1 id="近期规划"><a href="#近期规划" class="headerlink" title="近期规划"></a>近期规划</h1><h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>最近还要开家长会<br>无所谓…摆了</p>
+<h2 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h2><p>等会给网站加个副标题，是我喜欢的一句回文诗:</p>
+<blockquote>
+<p>长夜破浪伴晓梦 梦晓伴浪破夜长</p>
+</blockquote>
+<p>出自春与修罗<br>想到这儿突然想起来买书的时候买到盗版了<br>而且这b商家把序章给我漏印了🤣</p>
+<p>待会重新搞一个about me的网页<br>主页搞一个blog搞一个</p>
+<h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><p>虽然推完里奈优美百合线很不想推里奈线<br>但是剧情还是得过的<br>找个时间把剧情过了吧</p>
+<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>期中过后五一快来了<br>希望学校能把假放全吧</p>
 ]]></content>
       <tags>
         <tag>随记</tag>
@@ -93,6 +106,62 @@
 <h1 id="规划"><a href="#规划" class="headerlink" title="规划"></a>规划</h1><p>暑假打算学一下html，css，js这些<br>前后端什么的<br>到时候看看有没有闲钱搞个服务器<br>单片机目前没时间学而且设备限制学不了</p>
 <hr>
 <p>虽然说无聊但是日子还是得过的<br>马上放五一了，假期准备躺着过</p>
+]]></content>
+      <tags>
+        <tag>随记</tag>
+        <tag>生活</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024-4-20随记</title>
+    <url>/homepage/posts/1bd8065d.html</url>
+    <content><![CDATA[<h1 id="OCR进度"><a href="#OCR进度" class="headerlink" title="OCR进度"></a>OCR进度</h1><p>OCR的项目进展已经快一半了，用的是tkintertools<br>其实一开始的确想用pyqt<br>但是想了想，还要去学一个新的模块，好烦<br>然后直接选择tktools了<br>至于美观，肯定比tk美观</p>
+<h2 id="以前的版本"><a href="#以前的版本" class="headerlink" title="以前的版本"></a>以前的版本</h2><p>年少不知return和传参好，错把global当成宝</p>
+<p>之前写的一个OCR里面全是全局变量，特别逆天，能用全局变量绝不用传参和return<br>UI用的tkinter<br>因为烂，所以源码就不放了<br>不过给大家下了玩玩还是可以的<br><a href="https://wwo.lanzoum.com/iSXQz1scva2f">点此下载</a></p>
+<hr>
+<h1 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h1><p>寄了，这下彻底废了<br>以后要把精力放在学习上了…..<br>虽然极不情愿，但是没办法</p>
+<h1 id="每日一蚌"><a href="#每日一蚌" class="headerlink" title="每日一蚌"></a>每日一蚌</h1><p>我朋友把idcard和phone两个变量搞反了导致de了半天的bug<br>发现还是因为去掉了字符数量限制，到后端一看身份证和手机号一样的</p>
+<p>让我们一起笑他wwwwwwwww</p>
+<h1 id="转载声明"><a href="#转载声明" class="headerlink" title="转载声明"></a>转载声明</h1><p>待会搞，不过yysy<br>我平常发些日常的东西在上面也不需要标注转载说明<br>能不能在写blog的时候可以选择去掉<br>等我细细研究一下NexT</p>
+]]></content>
+      <tags>
+        <tag>随记</tag>
+        <tag>生活</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024-4-23随记</title>
+    <url>/homepage/posts/2a301cc0.html</url>
+    <content><![CDATA[<h1 id="假期"><a href="#假期" class="headerlink" title="假期"></a>假期</h1><p>马上就快五一了<br>现在调休连着上课累死了<br>根本没时间发blog</p>
+<h1 id="进度"><a href="#进度" class="headerlink" title="进度"></a>进度</h1><p>剩下quick_start还有翻译API的接入</p>
+<h1 id="五一计划"><a href="#五一计划" class="headerlink" title="五一计划"></a>五一计划</h1><p>打算把summer pockets的官方小说改成游戏<br>引擎使用：Renpy<br>手机得益于renpy的模拟器可以模拟器运行<br>原生适配Windows<br>其他平台以后再说？</p>
+<hr>
+<p>不写了<br>左手现在使不上劲，估计昨天给自己干废了，现在小臂肌肉还疼<br>估计腱鞘炎（玩音游玩的，后遗症落下了属于是）</p>
+<p>等有时间再把近况进行详细说明吧</p>
+]]></content>
+      <tags>
+        <tag>随记</tag>
+        <tag>生活</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024-04-28随记</title>
+    <url>/homepage/posts/78399448.html</url>
+    <content><![CDATA[<h1 id="有关ocr翻译器"><a href="#有关ocr翻译器" class="headerlink" title="有关ocr翻译器"></a>有关ocr翻译器</h1><h2 id="在线OCR"><a href="#在线OCR" class="headerlink" title="在线OCR"></a>在线OCR</h2><p>百度的免费额度用完了<br>用在测试上的<br>当时想能不能优化代码提高效率<br>结果倒欠了百度整整0.08元的巨款<br>嗯没错，OCR欠费了…</p>
+<p>所以我打算部署一个本地OCR</p>
+<span id="more"></span>
+<h2 id="本地OCR"><a href="#本地OCR" class="headerlink" title="本地OCR"></a>本地OCR</h2><h3 id="paddle-ocr"><a href="#paddle-ocr" class="headerlink" title="paddle ocr"></a>paddle ocr</h3><p>一开始我的首选是paddle ocr<br>因为没看懂文档再加上网上乱七八糟的教程<br>导致我没部署成功</p>
+<h3 id="dddd-ocr"><a href="#dddd-ocr" class="headerlink" title="dddd_ocr"></a>dddd_ocr</h3><p>这个ocr语法简洁，成了我的第二选择<br>但是~好像针对验证码的识别不错，但是文本就差强人意了<br>所以没选</p>
+<h3 id="easy-ocr"><a href="#easy-ocr" class="headerlink" title="easy ocr"></a>easy ocr</h3><p>一直用不了，不知道抽什么风</p>
+<h3 id="tesseract"><a href="#tesseract" class="headerlink" title="tesseract"></a>tesseract</h3><p>这玩意给了我希望然后就没有然后了…<br>不知道为什么我的识别精度（只要背景稍微杂乱一点）都会很低<br>用了二值法也不行</p>
+<h3 id="paddle-ocr-1"><a href="#paddle-ocr-1" class="headerlink" title="paddle ocr"></a>paddle ocr</h3><p>终于~<br>用回了paddle<br>发现真的好用，精度还高<br>就是速度慢了点</p>
+<h2 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h2><p>等下计划搞一个词典进去本地翻译<br>省的还要欠腾讯钱</p>
+<h1 id="五一假期"><a href="#五一假期" class="headerlink" title="五一假期"></a>五一假期</h1><p>铸币学校放4天<br>江苏改革之后假期都是全的<br>别的学校都放全了<br>就我们学校铸币<br>赶进度（一天时间也赶不了多少进度）</p>
+<p>到时候看看renpy怎么用<br>续写sprb的故事（其实就是把官方小说做成日后谈）</p>
+<h1 id="万花镜和o神联动？"><a href="#万花镜和o神联动？" class="headerlink" title="万花镜和o神联动？"></a>万花镜和o神联动？</h1><p>要真联动4里面也和初音联动了<br>估计官方整活（或者也有可能碰瓷？蹭热度？）<br>类似于三色绘恋里的‘移不动，联不通’和‘魔兽争霸’</p>
 ]]></content>
       <tags>
         <tag>随记</tag>
@@ -142,53 +211,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2024-4-23随记</title>
-    <url>/homepage/posts/2a301cc0.html</url>
-    <content><![CDATA[<h1 id="假期"><a href="#假期" class="headerlink" title="假期"></a>假期</h1><p>马上就快五一了<br>现在调休连着上课累死了<br>根本没时间发blog</p>
-<h1 id="进度"><a href="#进度" class="headerlink" title="进度"></a>进度</h1><p>剩下quick_start还有翻译API的接入</p>
-<h1 id="五一计划"><a href="#五一计划" class="headerlink" title="五一计划"></a>五一计划</h1><p>打算把summer pockets的官方小说改成游戏<br>引擎使用：Renpy<br>手机得益于renpy的模拟器可以模拟器运行<br>原生适配Windows<br>其他平台以后再说？</p>
-<hr>
-<p>不写了<br>左手现在使不上劲，估计昨天给自己干废了，现在小臂肌肉还疼<br>估计腱鞘炎（玩音游玩的，后遗症落下了属于是）</p>
-<p>等有时间再把近况进行详细说明吧</p>
-]]></content>
-      <tags>
-        <tag>随记</tag>
-        <tag>生活</tag>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024/4/17随记</title>
-    <url>/homepage/posts/266aae77.html</url>
-    <content><![CDATA[<p>说是4&#x2F;17的随记<br>其实已经快4&#x2F;18了</p>
-<hr>
-<h1 id="关于OCR翻译器"><a href="#关于OCR翻译器" class="headerlink" title="关于OCR翻译器"></a>关于OCR翻译器</h1><p>这个是我好久之前写的一个项目<br>用的是tk图形库</p>
-<span id="more"></span>
-<p>UI写的不行，所以当时打算用PyQt重写来着<br>再加上翻译API还是网上随便找的一个…</p>
-<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>双休再搞吧</p>
-<h1 id="近日概况"><a href="#近日概况" class="headerlink" title="近日概况"></a>近日概况</h1><p>化学我看是废了<br><s>谁敢和我抢化学倒一</s><br>语文这次挺难的，数学难的很难，简单的数值不好算<br>物理给我一种你能写但是你不能写的感受<br>英语没考目前</p>
-<h1 id="blog评论系统变更"><a href="#blog评论系统变更" class="headerlink" title="blog评论系统变更"></a>blog评论系统变更</h1><p>由原来的gitalk到valine再到utterances<br>让我们来看看怎么个事儿</p>
-<h2 id="gitalk"><a href="#gitalk" class="headerlink" title="gitalk"></a>gitalk</h2><p>一开始的选择<br>但是比较难用，遂放弃</p>
-<h2 id="valine"><a href="#valine" class="headerlink" title="valine"></a>valine</h2><p>不得不说这个评论系统UI好看而且还好用<br>但是国际版提交APPID和APPKEY死活出问题发不了评论<br>国内版没备案没法搞遂放弃</p>
-<h2 id="utterances"><a href="#utterances" class="headerlink" title="utterances"></a>utterances</h2><p>就是现在的这个评论系统<br>和gitalk类似，都是用的GitHub的issue<br>但是对权限管理更加细腻<br>所以选用它</p>
-<p>关键是我这个NexT版本才v7，内部没有集成此评论，还得自己加…<br>网上看教程碰了不少壁<br>好在最后成功了</p>
-<h1 id="近期规划"><a href="#近期规划" class="headerlink" title="近期规划"></a>近期规划</h1><h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>最近还要开家长会<br>无所谓…摆了</p>
-<h2 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h2><p>等会给网站加个副标题，是我喜欢的一句回文诗:</p>
-<blockquote>
-<p>长夜破浪伴晓梦 梦晓伴浪破夜长</p>
-</blockquote>
-<p>出自春与修罗<br>想到这儿突然想起来买书的时候买到盗版了<br>而且这b商家把序章给我漏印了🤣</p>
-<p>待会重新搞一个about me的网页<br>主页搞一个blog搞一个</p>
-<h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><p>虽然推完里奈优美百合线很不想推里奈线<br>但是剧情还是得过的<br>找个时间把剧情过了吧</p>
-<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>期中过后五一快来了<br>希望学校能把假放全吧</p>
-]]></content>
-      <tags>
-        <tag>随记</tag>
-        <tag>生活</tag>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python写一个音乐播放器</title>
     <url>/homepage/posts/bcca9bd1.html</url>
     <content><![CDATA[<p>本来想把之前OCR重写UI再端上来的说<br>但是马上就期中了，所以就把之前的音乐播放器拿出来给大家看看吧</p>
@@ -226,26 +248,14 @@
       </tags>
   </entry>
   <entry>
-    <title>2024-04-28随记</title>
-    <url>/homepage/posts/78399448.html</url>
-    <content><![CDATA[<h1 id="有关ocr翻译器"><a href="#有关ocr翻译器" class="headerlink" title="有关ocr翻译器"></a>有关ocr翻译器</h1><h2 id="在线OCR"><a href="#在线OCR" class="headerlink" title="在线OCR"></a>在线OCR</h2><p>百度的免费额度用完了<br>用在测试上的<br>当时想能不能优化代码提高效率<br>结果倒欠了百度整整0.08元的巨款<br>嗯没错，OCR欠费了…</p>
-<p>所以我打算部署一个本地OCR</p>
-<span id="more"></span>
-<h2 id="本地OCR"><a href="#本地OCR" class="headerlink" title="本地OCR"></a>本地OCR</h2><h3 id="paddle-ocr"><a href="#paddle-ocr" class="headerlink" title="paddle ocr"></a>paddle ocr</h3><p>一开始我的首选是paddle ocr<br>因为没看懂文档再加上网上乱七八糟的教程<br>导致我没部署成功</p>
-<h3 id="dddd-ocr"><a href="#dddd-ocr" class="headerlink" title="dddd_ocr"></a>dddd_ocr</h3><p>这个ocr语法简洁，成了我的第二选择<br>但是~好像针对验证码的识别不错，但是文本就差强人意了<br>所以没选</p>
-<h3 id="easy-ocr"><a href="#easy-ocr" class="headerlink" title="easy ocr"></a>easy ocr</h3><p>一直用不了，不知道抽什么风</p>
-<h3 id="tesseract"><a href="#tesseract" class="headerlink" title="tesseract"></a>tesseract</h3><p>这玩意给了我希望然后就没有然后了…<br>不知道为什么我的识别精度（只要背景稍微杂乱一点）都会很低<br>用了二值法也不行</p>
-<h3 id="paddle-ocr-1"><a href="#paddle-ocr-1" class="headerlink" title="paddle ocr"></a>paddle ocr</h3><p>终于~<br>用回了paddle<br>发现真的好用，精度还高<br>就是速度慢了点</p>
-<h2 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h2><p>等下计划搞一个词典进去本地翻译<br>省的还要欠腾讯钱</p>
-<h1 id="五一假期"><a href="#五一假期" class="headerlink" title="五一假期"></a>五一假期</h1><p>铸币学校放4天<br>江苏改革之后假期都是全的<br>别的学校都放全了<br>就我们学校铸币<br>赶进度（一天时间也赶不了多少进度）</p>
-<p>到时候看看renpy怎么用<br>续写sprb的故事（其实就是把官方小说做成日后谈）</p>
-<h1 id="万花镜和o神联动？"><a href="#万花镜和o神联动？" class="headerlink" title="万花镜和o神联动？"></a>万花镜和o神联动？</h1><p>要真联动4里面也和初音联动了<br>估计官方整活（或者也有可能碰瓷？蹭热度？）<br>类似于三色绘恋里的‘移不动，联不通’和‘魔兽争霸’</p>
+    <title>关于此站</title>
+    <url>/homepage/posts/d27f355a.html</url>
+    <content><![CDATA[<p>怎么说呢，其实就是临时起意搞得一个托管网站<br>以后会往上面发发自己写的小项目之类的<br>自己之前从来没在GitHub上发过什么，主要是因为写的东西GitHub上有更优的，发了没什么意义，以后就记录记录生活吧</p>
+<p>本人会python当然也只会python，之前有过想学c搞单片机但是奈何时间不够就放弃了</p>
+<h2 id="让我想想我还能写些什么"><a href="#让我想想我还能写些什么" class="headerlink" title="让我想想我还能写些什么"></a>让我想想我还能写些什么</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">print</span> (<span class="string">&#x27;helloworld&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>第一次接触编程是在初中，当时python学一半半途而废了，后来高一寒假学的</p>
+<h2 id="托管网站的一些事儿"><a href="#托管网站的一些事儿" class="headerlink" title="托管网站的一些事儿"></a>托管网站的一些事儿</h2><p>当时搞了半天都搞不懂为什么GitHub的链接正常，但是cloud flare加载的就会只剩下html，后来发现hexo的配置文件链接填错了……</p>
 ]]></content>
-      <tags>
-        <tag>随记</tag>
-        <tag>生活</tag>
-        <tag>diary</tag>
-      </tags>
   </entry>
   <entry>
     <title>Python自动上传网页至GitHub</title>
@@ -290,16 +300,6 @@
       <tags>
         <tag>技术</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>关于此站</title>
-    <url>/homepage/posts/d27f355a.html</url>
-    <content><![CDATA[<p>怎么说呢，其实就是临时起意搞得一个托管网站<br>以后会往上面发发自己写的小项目之类的<br>自己之前从来没在GitHub上发过什么，主要是因为写的东西GitHub上有更优的，发了没什么意义，以后就记录记录生活吧</p>
-<p>本人会python当然也只会python，之前有过想学c搞单片机但是奈何时间不够就放弃了</p>
-<h2 id="让我想想我还能写些什么"><a href="#让我想想我还能写些什么" class="headerlink" title="让我想想我还能写些什么"></a>让我想想我还能写些什么</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">print</span> (<span class="string">&#x27;helloworld&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<p>第一次接触编程是在初中，当时python学一半半途而废了，后来高一寒假学的</p>
-<h2 id="托管网站的一些事儿"><a href="#托管网站的一些事儿" class="headerlink" title="托管网站的一些事儿"></a>托管网站的一些事儿</h2><p>当时搞了半天都搞不懂为什么GitHub的链接正常，但是cloud flare加载的就会只剩下html，后来发现hexo的配置文件链接填错了……</p>
-]]></content>
   </entry>
   <entry>
     <title>杂谈:近况以及五一假期安排</title>
