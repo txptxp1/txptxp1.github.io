@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2024/4/15随记</title>
-    <url>/homepage/posts/b1f5bf5e.html</url>
-    <content><![CDATA[<h1 id="一天的开始"><a href="#一天的开始" class="headerlink" title="一天的开始"></a>一天的开始</h1><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2019021996&auto=0&height=66"></iframe>
-
-<p>记得几天前，电梯里就有一幅小孩画的画<br>右上角画的是太阳，中间是一个很大的蜗牛，下面是绿地和飞着的蝴蝶（大概？<br>每天早上看到这幅画都会给我带来一天开始的好心情</p>
-<p>可惜的是<br>今天晚上，我看不到那副画了<br>也许是被人丢掉了，但我更希望是原作者拿走了它<br>原本想拍下那幅画，可惜没有适宜的时机</p>
-<span id="more"></span>
-
-<hr>
-<p>上课上的好无聊…<br>总之最烦的我认为就是化学了，因为学不会<br>想当初我学化学还是因为没有物生地的班级，现在化学废了，没办法的事</p>
-<p>上完课发现自己根本不需要查漏补缺<br>因为没意义，差的太多了….</p>
-<hr>
-<p>明天还要考试，而且是期中<br>说摆烂不在乎是假的，毕竟期中啊…..<br>真怀念初中的时候，对成绩满不在乎，丝毫不关注成绩，那种纯真的摆烂带给我的不止一星半点的快乐</p>
-<p>而现在<br>只能在压抑之中</p>
-<p>不过无所谓了，不无病呻吟了<br>总之<br><img src="https://bucket.iczrx.cn/2024/04/15/661d4e0a3e630.jpg" alt="62A35772361FD6B8F9B56D37FC037871.jpg"><br>开摆！<br>哪怕是有意而为，至少比苦逼的内卷好吧<br>与其加入这无意义无止境的精神内耗之中<br>调整好自己的心态才重要吧</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span> (<span class="string">&#x27;--------------------分割线--------------------&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<p>换了个分割线<br><s>为什么？哪有那么多为什么呢</s><br>呐，说什么好呢<br>小区电梯里，广告牌上（现在被人拆掉了）女明星的胸部被戳了两个洞<br>学校厕所里，墙上有人画了个OlO<br>这些搞恶趣味的人们是有多闲呢，反正我看了是反感的</p>
-<p>也许那张小孩画的画，放在电梯里，不消几日就消失，也和这些“高素质人群”有着密切联系吧</p>
-<hr>
-<p>思绪万千，却码不出什么字来<br>还能说些什么呢？</p>
-<p>也许今天的作业还没写完？<br>也许明天考试内容没复习？<br>然而我懒得写甚至懒得抄<br>复习也是没可能的</p>
-<p>夜里了，写完随记到了第二天了<br>先就这样吧<br><img src="https://bucket.iczrx.cn/2024/04/16/661d530f459ec.jpg" alt="30E3BFF54A8FA7A04D5EE9BC67A0C4AE.jpg"></p>
-]]></content>
-      <tags>
-        <tag>生活</tag>
-        <tag>随记</tag>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2024-5-1随记</title>
     <url>/homepage/posts/d6a200d.html</url>
     <content><![CDATA[<h1 id="打包问题"><a href="#打包问题" class="headerlink" title="打包问题"></a>打包问题</h1><p>不知道抽什么风，pyinstaller打包了会报错</p>
@@ -58,8 +28,38 @@
 <p>虽说Ren’py上手确实简答就是了…</p>
 ]]></content>
       <tags>
-        <tag>随记</tag>
         <tag>技术</tag>
+        <tag>随记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024/4/15随记</title>
+    <url>/homepage/posts/b1f5bf5e.html</url>
+    <content><![CDATA[<h1 id="一天的开始"><a href="#一天的开始" class="headerlink" title="一天的开始"></a>一天的开始</h1><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2019021996&auto=0&height=66"></iframe>
+
+<p>记得几天前，电梯里就有一幅小孩画的画<br>右上角画的是太阳，中间是一个很大的蜗牛，下面是绿地和飞着的蝴蝶（大概？<br>每天早上看到这幅画都会给我带来一天开始的好心情</p>
+<p>可惜的是<br>今天晚上，我看不到那副画了<br>也许是被人丢掉了，但我更希望是原作者拿走了它<br>原本想拍下那幅画，可惜没有适宜的时机</p>
+<span id="more"></span>
+
+<hr>
+<p>上课上的好无聊…<br>总之最烦的我认为就是化学了，因为学不会<br>想当初我学化学还是因为没有物生地的班级，现在化学废了，没办法的事</p>
+<p>上完课发现自己根本不需要查漏补缺<br>因为没意义，差的太多了….</p>
+<hr>
+<p>明天还要考试，而且是期中<br>说摆烂不在乎是假的，毕竟期中啊…..<br>真怀念初中的时候，对成绩满不在乎，丝毫不关注成绩，那种纯真的摆烂带给我的不止一星半点的快乐</p>
+<p>而现在<br>只能在压抑之中</p>
+<p>不过无所谓了，不无病呻吟了<br>总之<br><img src="https://bucket.iczrx.cn/2024/04/15/661d4e0a3e630.jpg" alt="62A35772361FD6B8F9B56D37FC037871.jpg"><br>开摆！<br>哪怕是有意而为，至少比苦逼的内卷好吧<br>与其加入这无意义无止境的精神内耗之中<br>调整好自己的心态才重要吧</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span> (<span class="string">&#x27;--------------------分割线--------------------&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>换了个分割线<br><s>为什么？哪有那么多为什么呢</s><br>呐，说什么好呢<br>小区电梯里，广告牌上（现在被人拆掉了）女明星的胸部被戳了两个洞<br>学校厕所里，墙上有人画了个OlO<br>这些搞恶趣味的人们是有多闲呢，反正我看了是反感的</p>
+<p>也许那张小孩画的画，放在电梯里，不消几日就消失，也和这些“高素质人群”有着密切联系吧</p>
+<hr>
+<p>思绪万千，却码不出什么字来<br>还能说些什么呢？</p>
+<p>也许今天的作业还没写完？<br>也许明天考试内容没复习？<br>然而我懒得写甚至懒得抄<br>复习也是没可能的</p>
+<p>夜里了，写完随记到了第二天了<br>先就这样吧<br><img src="https://bucket.iczrx.cn/2024/04/16/661d530f459ec.jpg" alt="30E3BFF54A8FA7A04D5EE9BC67A0C4AE.jpg"></p>
+]]></content>
+      <tags>
+        <tag>随记</tag>
+        <tag>生活</tag>
+        <tag>diary</tag>
       </tags>
   </entry>
   <entry>
@@ -88,8 +88,8 @@
 <h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>期中过后五一快来了<br>希望学校能把假放全吧</p>
 ]]></content>
       <tags>
-        <tag>生活</tag>
         <tag>随记</tag>
+        <tag>生活</tag>
         <tag>diary</tag>
       </tags>
   </entry>
@@ -108,8 +108,8 @@
 <p>虽然说无聊但是日子还是得过的<br>马上放五一了，假期准备躺着过</p>
 ]]></content>
       <tags>
-        <tag>生活</tag>
         <tag>随记</tag>
+        <tag>生活</tag>
         <tag>diary</tag>
       </tags>
   </entry>
@@ -126,8 +126,8 @@
 <h1 id="转载声明"><a href="#转载声明" class="headerlink" title="转载声明"></a>转载声明</h1><p>待会搞，不过yysy<br>我平常发些日常的东西在上面也不需要标注转载说明<br>能不能在写blog的时候可以选择去掉<br>等我细细研究一下NexT</p>
 ]]></content>
       <tags>
-        <tag>生活</tag>
         <tag>随记</tag>
+        <tag>生活</tag>
         <tag>diary</tag>
       </tags>
   </entry>
@@ -142,8 +142,8 @@
 <p>等有时间再把近况进行详细说明吧</p>
 ]]></content>
       <tags>
-        <tag>生活</tag>
         <tag>随记</tag>
+        <tag>生活</tag>
         <tag>diary</tag>
       </tags>
   </entry>
@@ -164,8 +164,8 @@
 <h1 id="万花镜和o神联动？"><a href="#万花镜和o神联动？" class="headerlink" title="万花镜和o神联动？"></a>万花镜和o神联动？</h1><p>要真联动4里面也和初音联动了<br>估计官方整活（或者也有可能碰瓷？蹭热度？）<br>类似于三色绘恋里的‘移不动，联不通’和‘魔兽争霸’</p>
 ]]></content>
       <tags>
-        <tag>生活</tag>
         <tag>随记</tag>
+        <tag>生活</tag>
         <tag>diary</tag>
       </tags>
   </entry>
@@ -205,8 +205,8 @@
 <p>终于成功了</p>
 ]]></content>
       <tags>
-        <tag>生活</tag>
         <tag>随记</tag>
+        <tag>生活</tag>
         <tag>diary</tag>
       </tags>
   </entry>
@@ -245,6 +245,68 @@
       </categories>
       <tags>
         <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python爬取pixiv图片</title>
+    <url>/homepage/posts/5769b4d0.html</url>
+    <content><![CDATA[<h1 id="带检索功能的爬虫"><a href="#带检索功能的爬虫" class="headerlink" title="带检索功能的爬虫"></a>带检索功能的爬虫</h1><p>代码如下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> urllib3</span><br><span class="line"><span class="keyword">import</span> urllib</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> os.path</span><br><span class="line"><span class="keyword">if</span> os.path.exists(<span class="string">&#x27;img&#x27;</span>):</span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    os.mkdir(<span class="string">&#x27;img&#x27;</span>)</span><br><span class="line">urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)</span><br><span class="line">url=<span class="string">&#x27;https://www.pixiv.net/&#x27;</span></span><br><span class="line">headers=&#123;</span><br><span class="line"><span class="string">&quot;User-Agent&quot;</span>:<span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0&quot;</span>,</span><br><span class="line"><span class="string">&quot;Cookie&quot;</span>:</span><br><span class="line"><span class="string">&quot;填入你的cookie&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">keywords=<span class="built_in">str</span>(<span class="built_in">input</span>(<span class="string">&#x27;输入关键词进行搜索&#x27;</span>))</span><br><span class="line">keywords=urllib.parse.quote(keywords)</span><br><span class="line">search_url=<span class="string">f&quot;https://www.pixiv.net/ajax/search/artworks/<span class="subst">&#123;keywords&#125;</span>?word=<span class="subst">&#123;keywords&#125;</span>&amp;order=date_d&amp;mode=all&amp;p=1&amp;csw=0&amp;s_mode=s_tag&amp;type=all&amp;lang=zh&quot;</span></span><br><span class="line">resp=requests.get(url=search_url,headers=headers,verify=<span class="literal">False</span>)</span><br><span class="line">resp.close()</span><br><span class="line"><span class="comment">#print (resp.json())</span></span><br><span class="line">result=resp.json()</span><br><span class="line">num=<span class="built_in">int</span>(<span class="built_in">len</span>(result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>]))</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,num):</span><br><span class="line">    <span class="built_in">id</span>=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][i][<span class="string">&#x27;id&#x27;</span>]</span><br><span class="line">    title=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][i][<span class="string">&#x27;title&#x27;</span>]</span><br><span class="line">    pageCount=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][i][<span class="string">&#x27;pageCount&#x27;</span>]</span><br><span class="line">    createDate=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][i][<span class="string">&#x27;createDate&#x27;</span>]</span><br><span class="line">    <span class="built_in">print</span> (<span class="string">f&#x27;作品编号:<span class="subst">&#123;i&#125;</span>,作品标题:<span class="subst">&#123;title&#125;</span>,作品id:<span class="subst">&#123;<span class="built_in">id</span>&#125;</span>,作品页数:<span class="subst">&#123;pageCount&#125;</span>,创作时间:<span class="subst">&#123;createDate&#125;</span>&#x27;</span>)</span><br><span class="line">choose=<span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&#x27;请输入需要爬取的图片编号&#x27;</span>))</span><br><span class="line"><span class="built_in">id</span>=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][choose][<span class="string">&#x27;id&#x27;</span>]</span><br><span class="line">pageCount=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][choose][<span class="string">&#x27;pageCount&#x27;</span>]</span><br><span class="line">img_url=<span class="string">f&#x27;https://www.pixiv.net/artworks/<span class="subst">&#123;<span class="built_in">id</span>&#125;</span>&#x27;</span></span><br><span class="line">createDate=createDate.replace(<span class="string">&#x27;-&#x27;</span>,<span class="string">&#x27;/&#x27;</span>).replace(<span class="string">&#x27;T&#x27;</span>,<span class="string">&#x27;/&#x27;</span>).replace(<span class="string">&#x27;:&#x27;</span>,<span class="string">&#x27;/&#x27;</span>)</span><br><span class="line">createDate=createDate.split(<span class="string">&#x27;+&#x27;</span>)</span><br><span class="line">createDate=createDate[<span class="number">0</span>]</span><br><span class="line">download_url=<span class="string">&#x27;https://i.pximg.net/img-master/img/&#123;createDate&#125;/&#123;id&#125;_p&#123;pageCount&#125;_square1200.jpg&#x27;</span></span><br><span class="line">headers_down=&#123;</span><br><span class="line"><span class="string">&quot;User-Agent&quot;</span>:<span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0&quot;</span>,</span><br><span class="line"><span class="string">&quot;Cookie&quot;</span>:</span><br><span class="line"><span class="string">&quot;填入你的cookie&quot;</span>,</span><br><span class="line"><span class="string">&quot;Referer&quot;</span>:</span><br><span class="line"><span class="string">&quot;https://www.pixiv.net/&quot;</span></span><br><span class="line">&#125;</span><br><span class="line">image=requests.get(url=download_url,headers=headers_down)</span><br><span class="line">image.encoding=<span class="string">&#x27;utf-8&#x27;</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">f&#x27;img/<span class="subst">&#123;<span class="built_in">id</span>&#125;</span>.png&#x27;</span>,<span class="string">&#x27;wb&#x27;</span>)<span class="keyword">as</span> f:</span><br><span class="line">    f.write(image.content)</span><br></pre></td></tr></table></figure>
+
+
+
+<p>思路详解</p>
+<p>打开pixiv前端的源码</p>
+<p>会发现如下</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/12/66407937868fb.png" alt="没有想要的图片"></p>
+<p>于是xpath和bs4以及re正则提取界面源码的方法就没法用了</p>
+<p>那怎么办</p>
+<p>我们先随意搜索一个东西</p>
+<p>这里以litter busters举例</p>
+<p>搜索玩打开前端源码</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/12/664079b9b0d6b.png" alt="界面源码"></p>
+<p>还是没有任何我们想要的东西</p>
+<p>打开开发者控制台进行刷新界面抓包看看</p>
+<p>但是在搜索界面一直没有什么发现，只有一些杂乱的数据</p>
+<p>于是我换了个思路，从主页的搜索框搜索，获取完整的抓包数据</p>
+<p>最终，我发现了这个</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/12/66407b20b4b20.png" alt="抓包数据"></p>
+<p>很长的名字</p>
+<p>我翻了好久无意中翻到的</p>
+<p>打开看看</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/12/66407b654541b.png" alt="获取的数据"></p>
+<p>居然是json</p>
+<p>我打开body，往里面翻了翻</p>
+<p>就找到了如图的数据</p>
+<p>没错，正是我想要的</p>
+<p>这就是搜索界面的所有信息</p>
+<p>存在<code>[&#39;body&#39;][&#39;illustMange&#39;][&#39;data&#39;]</code>里</p>
+<p>打开其中一个</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/12/66407c18b6360.png"></p>
+<p>这就是我想要得了</p>
+<p>现在我们记录下我们需要的信息</p>
+<p>然后随记点开一个图片</p>
+<p>进去的时候记得抓包，等加载出图片的时候寻找图片</p>
+<p>找到图片的链接为</p>
+<p><code>https://i.pximg.net/img-master/img/2024/05/11/09/39/28/118621977_p0_master1200.jpg</code></p>
+<p>其中，img后面的应该是之前抓包出来的化画作信息的日期，日期后面是id，p0是这个作品的第几张图片</p>
+<p>现在，我们对其进行修改</p>
+<p>先获取图片的id，日期，页数</p>
+<p>然后用f替换</p>
+<p><code>download——url=&#39;https://i.pximg.net/img-master/img/&#123;createDate&#125;/&#123;id&#125;_p&#123;pageCount&#125;_square1200.jpg&#39;</code></p>
+<p>为什么master1200会变为square1200，这个我也不清楚</p>
+<p>反正我爬的图片链接就是以square1200结尾的</p>
+<p>对了，记得搞好请求头</p>
+<p>“Referer”:”<a href="https://www.pixiv.net/">https://www.pixiv.net/</a>“</p>
+<p>然后就可以愉快的爬图片了</p>
+<p><strong>注：此代码无法批量爬取图片，例如日榜之类，只带有搜索功能，以及，我只做了默认第一页搜索结果的爬取，page懒得搞了</strong></p>
+<h2 id="批量爬取图片"><a href="#批量爬取图片" class="headerlink" title="批量爬取图片"></a>批量爬取图片</h2><p>还没写…</p>
+<p>最近比较忙没时间更新blog</p>
+<p>润了</p>
+]]></content>
+      <tags>
+        <tag>技术</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
