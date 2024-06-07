@@ -6,7 +6,7 @@
   <link href="https://adeptmicors279-github-io.pages.dev/homepage/atom.xml" rel="self"/>
   
   <link href="https://adeptmicors279-github-io.pages.dev/homepage/"/>
-  <updated>2024-05-13T16:08:20.732Z</updated>
+  <updated>2024-06-07T18:30:12.993Z</updated>
   <id>https://adeptmicors279-github-io.pages.dev/homepage/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2024-6-8随记</title>
+    <link href="https://adeptmicors279-github-io.pages.dev/homepage/posts/a17f591b.html"/>
+    <id>https://adeptmicors279-github-io.pages.dev/homepage/posts/a17f591b.html</id>
+    <published>2024-06-07T17:39:30.000Z</published>
+    <updated>2024-06-07T18:30:12.993Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;似了这么多天，也该发发文章了（虽然没人看就是了）&lt;/p&gt;
+&lt;h1 id=&quot;FTP&quot;&gt;&lt;a href=&quot;#FTP&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="diary" scheme="https://adeptmicors279-github-io.pages.dev/homepage/tags/diary/"/>
+    
+    <category term="生活，随记" scheme="https://adeptmicors279-github-io.pages.dev/homepage/tags/%E7%94%9F%E6%B4%BB%EF%BC%8C%E9%9A%8F%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Python爬取pixiv图片</title>
     <link href="https://adeptmicors279-github-io.pages.dev/homepage/posts/5769b4d0.html"/>
     <id>https://adeptmicors279-github-io.pages.dev/homepage/posts/5769b4d0.html</id>
     <published>2024-05-11T18:10:57.000Z</published>
-    <updated>2024-05-13T16:08:20.732Z</updated>
+    <updated>2024-05-13T16:08:45.034Z</updated>
     
     
       
