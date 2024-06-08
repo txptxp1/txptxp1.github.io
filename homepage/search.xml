@@ -94,24 +94,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2024-4-20随记</title>
-    <url>/homepage/posts/1bd8065d.html</url>
-    <content><![CDATA[<h1 id="OCR进度"><a href="#OCR进度" class="headerlink" title="OCR进度"></a>OCR进度</h1><p>OCR的项目进展已经快一半了，用的是tkintertools<br>其实一开始的确想用pyqt<br>但是想了想，还要去学一个新的模块，好烦<br>然后直接选择tktools了<br>至于美观，肯定比tk美观</p>
-<h2 id="以前的版本"><a href="#以前的版本" class="headerlink" title="以前的版本"></a>以前的版本</h2><p>年少不知return和传参好，错把global当成宝</p>
-<p>之前写的一个OCR里面全是全局变量，特别逆天，能用全局变量绝不用传参和return<br>UI用的tkinter<br>因为烂，所以源码就不放了<br>不过给大家下了玩玩还是可以的<br><a href="https://wwo.lanzoum.com/iSXQz1scva2f">点此下载</a></p>
-<hr>
-<h1 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h1><p>寄了，这下彻底废了<br>以后要把精力放在学习上了…..<br>虽然极不情愿，但是没办法</p>
-<h1 id="每日一蚌"><a href="#每日一蚌" class="headerlink" title="每日一蚌"></a>每日一蚌</h1><p>我朋友把idcard和phone两个变量搞反了导致de了半天的bug<br>发现还是因为去掉了字符数量限制，到后端一看身份证和手机号一样的</p>
-<p>让我们一起笑他wwwwwwwww</p>
-<h1 id="转载声明"><a href="#转载声明" class="headerlink" title="转载声明"></a>转载声明</h1><p>待会搞，不过yysy<br>我平常发些日常的东西在上面也不需要标注转载说明<br>能不能在写blog的时候可以选择去掉<br>等我细细研究一下NexT</p>
-]]></content>
-      <tags>
-        <tag>随记</tag>
-        <tag>生活</tag>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2024-4-18随记</title>
     <url>/homepage/posts/a6b84fd9.html</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>考试终于结束了</p>
@@ -124,6 +106,24 @@
 <h1 id="规划"><a href="#规划" class="headerlink" title="规划"></a>规划</h1><p>暑假打算学一下html，css，js这些<br>前后端什么的<br>到时候看看有没有闲钱搞个服务器<br>单片机目前没时间学而且设备限制学不了</p>
 <hr>
 <p>虽然说无聊但是日子还是得过的<br>马上放五一了，假期准备躺着过</p>
+]]></content>
+      <tags>
+        <tag>随记</tag>
+        <tag>生活</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024-4-20随记</title>
+    <url>/homepage/posts/1bd8065d.html</url>
+    <content><![CDATA[<h1 id="OCR进度"><a href="#OCR进度" class="headerlink" title="OCR进度"></a>OCR进度</h1><p>OCR的项目进展已经快一半了，用的是tkintertools<br>其实一开始的确想用pyqt<br>但是想了想，还要去学一个新的模块，好烦<br>然后直接选择tktools了<br>至于美观，肯定比tk美观</p>
+<h2 id="以前的版本"><a href="#以前的版本" class="headerlink" title="以前的版本"></a>以前的版本</h2><p>年少不知return和传参好，错把global当成宝</p>
+<p>之前写的一个OCR里面全是全局变量，特别逆天，能用全局变量绝不用传参和return<br>UI用的tkinter<br>因为烂，所以源码就不放了<br>不过给大家下了玩玩还是可以的<br><a href="https://wwo.lanzoum.com/iSXQz1scva2f">点此下载</a></p>
+<hr>
+<h1 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h1><p>寄了，这下彻底废了<br>以后要把精力放在学习上了…..<br>虽然极不情愿，但是没办法</p>
+<h1 id="每日一蚌"><a href="#每日一蚌" class="headerlink" title="每日一蚌"></a>每日一蚌</h1><p>我朋友把idcard和phone两个变量搞反了导致de了半天的bug<br>发现还是因为去掉了字符数量限制，到后端一看身份证和手机号一样的</p>
+<p>让我们一起笑他wwwwwwwww</p>
+<h1 id="转载声明"><a href="#转载声明" class="headerlink" title="转载声明"></a>转载声明</h1><p>待会搞，不过yysy<br>我平常发些日常的东西在上面也不需要标注转载说明<br>能不能在写blog的时候可以选择去掉<br>等我细细研究一下NexT</p>
 ]]></content>
       <tags>
         <tag>随记</tag>
